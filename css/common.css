@@ -1,0 +1,27 @@
+/*Fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Kanit&family=Poppins&display=swap');
+
+/*CSS Reset*/
+html, body, header, main, nav, section, div, article, footer, h1, h2, h3, p, a, ul, li, img, button, figure, figcaption, span{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*CSS Reset*/
+
+:root{
+    font-size: 17px;
+    font-family: 'Poppins', sans-serif;
+    --text-color: #8F8F8F;
+    --ui-title-color: #FFFFFF;
+    --text-ui-brand-color: #D6FB00;
+}
+
+h1{
+    color: var(--heading-color)
+}
+
+img {
+    display: block;
+    width: 100%;
+}
