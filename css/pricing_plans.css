@@ -1,0 +1,40 @@
+.plans__title {
+    font-family: 'Kanit', sans-serif;
+    font-size: 38px;
+    color: var(--ui-title-color);
+}
+
+.plans__choose {
+    font-size: 19px;
+    color: rgb(220, 220, 220);
+}
+
+.plan__title {
+    font-family: 'Kanit', sans-serif;
+    font-size: 22px;
+    color: var(--text-color);
+}
+
+.plan__price {
+    font-family: 'Kanit', sans-serif;
+    font-size: 30px;
+    color: var(--text-ui-brand-color);
+}
+
+.plan__price-detail {
+    font-family: 'Kanit', sans-serif;
+    font-size: 30px;
+    color: var(--ui-title-color);
+}
+
+.plan__intensity {
+    font-size: 14px;
+    color: rgb(169, 169, 169);
+}
+.plan__detail {
+    color: var(--text-color);
+}
+.select__plan {
+    font-size: 14px;
+    color: rgb(25, 25, 25);
+}
