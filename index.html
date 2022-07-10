@@ -7,17 +7,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fitness Center</title>
     <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
-    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/index.css">
 </head>
 
 <body>
     <header>
-        <p>E-mail: <a href="mailto:fitb@email.com">fitb@email.com</a></p>
-        <p>Phone: <a href="tel:+1(234)568900">+1(234)568900</a></p>
+        <p class="header__contacts">E-mail: <a class="header__contacts-link"
+                href="mailto:fitb@email.com">fitb@email.com</a></p>
+        <p class="header__contacts">Phone: <a class="header__contacts-link" href="tel:+1(234)568900">+1(234)568900</a>
+        </p>
         <nav class="header__nav">
             <div class="header__nav-logo">
-                <a>
-                    <img src="img/logo.svg" width="250" height="250" alt="logo">
+                <a href="#">
+                    <img class="header_logo-img" src="img/logo.svg" alt="logo">
                 </a>
             </div>
             <div class="header__horizontal-bar">
@@ -29,24 +31,20 @@
             </div>
             <div class="header__social-links">
                 <a href="https://www.facebook.com/" target="_blank" class="header__social-icon"><img
-                        class="header__social-icon" src="img/facebook.svg" width="25" height="25" alt="facebook"></a>
+                        class="header__social-icon" src="img/facebook.svg" alt="facebook"></a>
                 <a href="https://www.instagram.com/" target="_blank" class="header__social-icon"><img
-                        class="header__social-icon" src="img/instagram.svg" width="25" height="25" alt="instagram"></a>
+                        class="header__social-icon" src="img/instagram.svg" alt="instagram"></a>
                 <a href="https://twitter.com/" target="_blank" class="header__social-icon"><img
-                        class="header__social-icon" src="img/twitter.svg" width="25" height="25" alt="twitter"></a>
+                        class="header__social-icon" src="img/twitter.svg" alt="twitter"></a>
                 <a href="https://www.youtube.com/" target="_blank" class="header__social-icon"><img
-                        class="header__social-icon" src="img/youtube.svg" width="25" height="25" alt="youtube"></a>
-
+                        class="header__social-icon" src="img/youtube.svg" alt="youtube"></a>
             </div>
-
             <div class="header__introduction">
-                <h1>GET FIT AND FEEL GREAT!</h1>
+                <h1>GET FIT AND FEEL <span class="header__introduction-word">GREAT!</span></h1>
                 <h2>Our professional instructors will help you stay active and healthy.</h2>
-
             </div>
             <button type="button" class="select__plan"><img src="img/right-arrow.svg" alt="Right arrow">JOIN
                 NOW</button>
-
         </nav>
     </header>
     <main class="main">

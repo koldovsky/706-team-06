@@ -1,0 +1,40 @@
+.header__contacts {
+    color: var(--text-color);
+    font-family: 'Poppins';
+    font-size: 14px;
+}
+
+.header__contacts-link {
+    color: var(--ui-title-color);
+    font-size: 14px;
+    font-family: 'Poppins';
+}
+
+.header_logo-img {
+    height: 43px;
+    width: 130px;
+}
+
+.header__horizontal-bar a {
+    color: var(--text-color);
+}
+
+.header__social-icon {
+    color: var(--text-ui-brand-color);
+    width: 25px;
+    height: 25px;
+}
+
+.header__introduction {
+    font-family: 'Kanit', sans-serif;
+    font-size: 17px;
+}
+
+.header__introduction-word {
+    color: var(--text-ui-brand-color);
+    font-family: 'Kanit', sans-serif;
+}
+
+.select__plan {
+    cursor: pointer;
+}
