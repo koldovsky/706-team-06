@@ -1,0 +1,39 @@
+.get-class {
+    background-color: #191919;
+}
+.get-class-header__title {
+    font-family: 'Kanit', sans-serif;
+    font-size: 46px;
+    color: #fff;
+    font-weight: 700;
+}
+.get-class__schedule-text {
+    font-family: 'Kanit', sans-serif;
+    font-size: 17px;
+    color: #8f8f8f!important;
+}
+.get-class__schedule-yellow {color: #d6fb00!important;}
+
+.get-class__email-text {
+    font-family: 'Kanit', sans-serif;
+    font-size: 14px;
+    color: #8f8f8f!important;
+}
+.get-class__email-value {
+    font-family: 'Kanit', sans-serif;
+    font-size: 14px;
+    color: #d6fb00!important;
+}
+.get-class__tel-text {
+    font-family: 'Kanit', sans-serif;
+    font-size: 14px;
+    color: #8f8f8f!important;
+    text-align: center;
+}
+.get-class__tel-value {
+    font-family: 'Kanit', sans-serif;
+    font-size: 14px;
+    color: #d6fb00!important;
+    text-align: center;
+}
+.get-class__pic {}

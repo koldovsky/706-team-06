@@ -1,0 +1,29 @@
+.group-training {
+    background-color: #191919;
+}
+.group-training__title {
+    font-family: 'Kanit', sans-serif;
+    font-size: 46px;
+    color: #fff;
+    font-weight: 700;
+}
+.group-training__slogan {
+    font-family: 'Kanit', sans-serif;
+    font-size: 19px;
+    color: #fff;
+}
+.group-training__text {
+    font-family: 'Kanit', sans-serif;
+    font-size: 17px;
+    color: #8f8f8f!important;
+}
+.group-training__list {
+    font-family: 'Kanit', sans-serif;
+    font-size: 14px;
+    color: #fff;
+}
+.yellow dot {
+    font-family: 'Kanit', sans-serif;
+    font-size: 14px;
+    color: #d6fb00!important;
+}
