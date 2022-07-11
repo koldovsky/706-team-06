@@ -1,0 +1,19 @@
+.main__title{
+    font-family:'Kanit', sans-serif;
+    font-size: 38px;
+    color: var(--ui-title-color);
+}
+.main__subtitle{
+    font-size: 19px ;
+    color: #DCDCDC;
+}
+.main__text-block{
+    font-size: 17px;
+}
+.main__text-button-2{
+    font-size: 15px;
+}
+.main__picture-title-benefits{
+    font-family: 'Kanit', sans-serif;
+    font-size: 24px;
+}
