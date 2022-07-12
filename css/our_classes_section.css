@@ -4,12 +4,13 @@
 
 .main__container {
     max-width: 1200px;
-    margin: auto;
+    margin: 0 auto;
+    color: #fff;
 }
 
 .main__header-our-classes {
     text-align: center;
-    color: #fff;
+   
 }
 
 .main__title {
@@ -34,6 +35,7 @@
 .main__picture-ball-text, .main__picture-ropes-text, 
 .main__picture-barbell-text, .main__picture-stationary-bikes-text {
    color:#707070;
+   font-size: 17px;
 }
 
 .main__accordion {
@@ -45,7 +47,6 @@
 
 .main__picture-ball, .main__picture-ropes, 
 .main__picture-barbell, .main__picture-stationary-bikes {
-    width: 100%;
-    height: 100%;
+    width: 350 ;
+    height: 65%;
 }
-
