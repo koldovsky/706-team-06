@@ -1,0 +1,42 @@
+.our-trainers__section {
+    margin: auto;
+}
+.our-trainers__title {
+    font-family: "Kanit",sans-serif;
+    font-size: 54px;
+    line-height: 59px;
+    text-transform: uppercase;
+}
+.our-trainers__description {
+    font-size: 19px;
+    line-height: 29px;
+}
+.our-trainers__container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.our-trainers__list {
+    list-style: none;
+    display: grid;
+}
+@media (min-width:770px) {
+    .our-trainers__list {
+        display: grid;
+        grid-template-columns:1fr 1fr;
+        grid-column-gap: 30px;
+    }
+}
+@media (min-width:1000px) {
+    .our-trainers__list {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-column-gap: 30px;
+    } 
+}
+.our-trainers__personal-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
