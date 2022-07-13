@@ -15,6 +15,7 @@ html, body, header, main, nav, section, div, article, footer, h1, h2, h3, p, a, 
     --text-color: #8F8F8F;
     --ui-title-color: #FFFFFF;
     --text-ui-brand-color: #D6FB00;
+    --ui-light-accent-color: #dcdcdc;
 }
 
 h1{
