@@ -1,39 +1,69 @@
-.get-class {
+section.get-class {
+    display: grid;
+    justify-content: center;
     background-color: #191919;
+    margin: 0;
+    padding: 35px;
 }
+
+.container__get-class {
+    display: grid;
+    grid-template-columns: 1fr;
+    max-width: 980px;
+    align-items: center;
+}
+
+@media (min-width: 560px) {
+    .container__get-class { 
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+.container__get-class-pic {
+    max-width: 980px;
+    width: fit-content;
+    height: fit-content;
+}
+
 .get-class-header__title {
     font-family: 'Kanit', sans-serif;
     font-size: 46px;
-    color: #fff;
+    color: var(--ui-title-color);
     font-weight: 700;
 }
+
 .get-class__schedule-text {
     font-family: 'Kanit', sans-serif;
     font-size: 17px;
-    color: #8f8f8f!important;
+    color: var(--text-color);
 }
-.get-class__schedule-yellow {color: #d6fb00!important;}
+
+.get-class__schedule-yellow {
+    color: var(--text-ui-brand-color);
+}
 
 .get-class__email-text {
     font-family: 'Kanit', sans-serif;
     font-size: 14px;
-    color: #8f8f8f!important;
+    color: var(--text-color);
 }
+
 .get-class__email-value {
     font-family: 'Kanit', sans-serif;
     font-size: 14px;
-    color: #d6fb00!important;
+    color: var(--text-ui-brand-color);
 }
+
 .get-class__tel-text {
     font-family: 'Kanit', sans-serif;
     font-size: 14px;
-    color: #8f8f8f!important;
+    color: var(--text-color);
     text-align: center;
 }
+
 .get-class__tel-value {
     font-family: 'Kanit', sans-serif;
     font-size: 14px;
-    color: #d6fb00!important;
+    color: var(--text-ui-brand-color);
     text-align: center;
 }
-.get-class__pic {}
