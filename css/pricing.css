@@ -1,15 +1,43 @@
 .plans {
-    background-color: #191919;
+    background-color: var(--background-color);
 }
 .plans__title {
     font-family: 'Kanit', sans-serif;
     font-size: 38px;
     color: var(--ui-title-color);
+    text-align: center;
 }
 
 .plans__choose {
     font-size: 19px;
-    color: rgb(220, 220, 220);
+    color: var(--additional-text-color);
+    text-align: center;
+}
+
+@media (min-width: 500px) {
+    .plans__types {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 10px;
+    }
+}
+
+@media (min-width: 700px) {
+    .plans__types {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (min-width: 800px) {
+    .plans__types {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+.plan__type {
+    background-color: var(--additional-background-color);
+    padding: 0 15px 0 15px;
+    border: 5px solid var(--background-color);
 }
 
 .plan__title {
@@ -32,21 +60,29 @@
 
 .plan__intensity {
     font-size: 14px;
-    color: rgb(169, 169, 169);
+    color: var(--additional-p-color);
 }
+
+.plan__details {
+    list-style: none;
+}
+
 .plan__detail {
     color: var(--text-color);
 }
 .circle__check {
     width: 20px;
     height: 24px;
+    display: inline;
 }
 .select__plan {
     font-size: 14px;
-    color: rgb(25, 25, 25);
+    color: var(--button-text-color);
+    background-color: var(--text-ui-brand-color);
     cursor: pointer;
 }
 .right__arrow {
     width: 24px;
     height: 24px;
+    display: inline;
 }

@@ -17,6 +17,10 @@ html, body, header, main, nav, section, div, article, footer, h1, h2, h3, p, a, 
     --text-ui-brand-color: #D6FB00;
     --ui-light-accent-color: #dcdcdc;
     --background-color: #191919;
+    --additional-background-color: rgba(143, 143, 143, 0.05);
+    --additional-text-color: rgb(220, 220, 220);
+    --additional-p-color: rgb(169, 169, 169);
+    --button-text-color: rgb(25, 25, 25);
 }
 body{
     padding-left: 130px;
