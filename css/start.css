@@ -2,7 +2,7 @@
     background-color: #191919;
 }
 .start__content {
-    display: flex;
+    display: block;
 }
 .start__title {
     font-family: 'Kanit', sans-serif;
