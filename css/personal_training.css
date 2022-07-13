@@ -11,6 +11,28 @@ section.personal__training{
     max-width: 980px;
     align-items: center;
 }
+@media (min-width: 560px) {
+    .container__group-training { 
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+ul {
+    list-style: none;
+}
+
+ul {
+    list-style: none;
+}
+
+ul li::before {
+    content: "\2022";
+    color: var(--text-ui-brand-color);
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+}
 
 .main__title {
     font-family: 'Kanit', sans-serif;
