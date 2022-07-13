@@ -1,0 +1,14 @@
+.start__class {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #191919;
+}
+.start__title {
+    font-family: 'Kanit', sans-serif;
+    font-size: 38px;
+    color: var(--ui-title-color);
+}
+.start__content {
+    display: flex;
+}
