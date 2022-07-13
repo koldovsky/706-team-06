@@ -8,10 +8,13 @@
     }
 
     .main__header {
-        display: flex;
-        flex-direction: column;
-        gap: 20px;
+        display: grid;
+        grid-template-columns: 1fr;
+        max-width: 980px;
+        align-items: center;
     }
+
+
 
     .main__button-2 {
         border: 2px solid #FFFFFF;
@@ -39,13 +42,15 @@
 
     .main__title {
         font-family: 'Kanit', sans-serif;
-        font-size: 38px;
+        font-size: 46px;
         color: var(--ui-title-color);
+        font-weight: 700;
     }
 
     .main__subtitle {
         font-size: 19px;
-        color: #DCDCDC;
+        color: #dcdcdc;
+        font-family: 'Kanit', sans-serif;
     }
 
     .main__text-block {
