@@ -16,8 +16,13 @@ html, body, header, main, nav, section, div, article, footer, h1, h2, h3, p, a, 
     --ui-title-color: #FFFFFF;
     --text-ui-brand-color: #D6FB00;
     --ui-light-accent-color: #dcdcdc;
+    --background-color: #191919;
 }
-
+body{
+    padding-left: 130px;
+    padding-right: 130px;
+    background-color: var(--background-color);
+}
 h1{
     color: var(--ui-title-color);
 }
