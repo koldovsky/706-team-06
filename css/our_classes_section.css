@@ -47,6 +47,6 @@
 
 .main__picture-ball, .main__picture-ropes, 
 .main__picture-barbell, .main__picture-stationary-bikes {
-    width: 350 ;
-    height: 65%;
+    width: 100% ;
+    height: 60%;
 }
