@@ -19,6 +19,11 @@
     .main__button-2 {
         border: 2px solid #FFFFFF;
         border-radius: 0px;
+        background-color: #191919;
+        font-size: 15px;
+        font-weight: 700;
+
+
 
     }
 
@@ -55,6 +60,8 @@
 
     .main__text-block {
         font-size: 17px;
+        font-family: 'Kanit', sans-serif;
+        color: #8f8f8f;
     }
 
     .main__text-button-2 {
