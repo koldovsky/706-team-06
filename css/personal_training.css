@@ -1,24 +1,39 @@
     .personal__training {
         display: flex;
         background-color: #191919;
-        padding: 35px;
         margin: 0;
         flex-direction: row;
         justify-content: space-between;
         align-items: stretch;
     }
 
-    .main_header {}
+    .main__header {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .main__button-2 {
+        border: 2px solid #FFFFFF;
+        border-radius: 0px;
+
+    }
+
+    .main__button-2:hover {
+        width: 209px;
+        height: 51px;
+    }
 
     .main__benefits-section {
         display: flex;
         flex-direction: row;
         background-color: #191919;
     }
-.benefits-icon{
-    width: 50px;
-    height: 50px;
-}
+
+    .benefits-icon {
+        width: 50px;
+        height: 50px;
+    }
 
 
 
@@ -44,4 +59,6 @@
     .main__picture-title-benefits {
         font-family: 'Kanit', sans-serif;
         font-size: 24px;
+        color: white;
+
     }
