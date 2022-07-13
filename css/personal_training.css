@@ -1,3 +1,17 @@
+section.personal__training{
+    display: grid;
+    justify-content: center;
+    background-color: #191919;
+    margin: 0;
+    padding: 35px;
+}
+.main_header{
+    display: grid;
+    grid-template-columns: 1fr;
+    max-width: 980px;
+    align-items: center;
+}
+
 .main__title {
     font-family: 'Kanit', sans-serif;
     font-size: 38px;
