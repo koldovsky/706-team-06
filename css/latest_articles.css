@@ -72,7 +72,9 @@
     text-transform: uppercase;
     color: var(--ui-title-color);
 }
+
 /*Responsive*/
+/*Mobile S*/
 @media (max-width: 320px){
     .latest__articles_section{
         justify-content: center;
@@ -82,5 +84,33 @@
     .latest__articles{
         flex-direction: column;
         max-width: 320px;
+    }
+}
+/*Mobile M*/
+@media (max-width: 375px){
+    .latest__articles_section{
+        justify-content: center;
+        align-items: center;
+        max-width: 375px;
+    }
+}
+/*Mobile L*/
+@media (max-width: 425px){
+    .latest__articles_section{
+        justify-content: center;
+        align-items: center;
+        max-width: 400px;
+    }
+}
+/*Tablet*/
+@media (max-width: 900px){
+    .latest__articles_section{
+        justify-content: space-around;
+        align-items: center;
+        max-width: 400px;
+        gap: 50px;
+    }
+    .latest__articles__main_title{
+        text-align: left;
     }
 }
