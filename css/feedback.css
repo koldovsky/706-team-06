@@ -1,0 +1,63 @@
+.carousel-feedback{
+    overflow: hidden;
+    width: 100%;
+    position: relative;
+}
+.carousel-wrapper{
+    width: 300%;
+    display: flex;
+    flex-direction: row;
+}
+
+.carousel-feedback-el{
+    width: 33%;
+}
+.feedback_heading{
+    color: var(--ui-title-color);
+    margin-bottom: 10px;
+}
+.feedback_text{
+    color: var(--ui-title-color);
+    margin-bottom: 10px;
+}
+.feedback__small-text{
+    color: var(--additional-text-color);
+    margin-bottom: 10px;
+}
+.feedback_img{
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+.carousel-feedback{
+    position: relative;
+}
+
+.feedback__btn-right{
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    bottom: 50%;
+    z-index: 10;
+    background: none;
+    border: none;
+}
+
+.feedback__btn-left{
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    bottom: 50%;
+    z-index: 10;
+    background: none;
+    border: none;
+}
+
+.carousel__feedback__item{
+    width: 33.3%;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}

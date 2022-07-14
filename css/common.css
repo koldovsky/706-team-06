@@ -9,9 +9,11 @@ html, body, header, main, nav, section, div, article, footer, h1, h2, h3, p, a, 
 }
 /*CSS Reset*/
 
+
 :root{
     font-size: 17px;
     font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
     --text-color: #8F8F8F;
     --ui-title-color: #FFFFFF;
     --text-ui-brand-color: #D6FB00;
