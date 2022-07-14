@@ -47,7 +47,14 @@
 .main__picture-barbell, .main__picture-stationary-bikes {
     width: 230px;
     height: 300px; 
-    object-fit: cover;
-    
-    
+    object-fit: cover;   
+}
+
+.main__text-button {
+    background-color: #d6fb00;
+   
+}
+
+.main__button {
+    margin: 0 auto;
 }
