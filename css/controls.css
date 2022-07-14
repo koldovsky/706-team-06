@@ -1,1 +1,26 @@
 /*common button styles*/
+/* Personal training, "Explore training" */
+.main__button-2 {
+    border: solid var(--ui-title-color);
+    border-radius: 2px;
+    background-color: var(--background-color);
+    font-size: 15px;
+    color: var(--ui-title-color);
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    display: inline-block;
+    text-align: center;
+    padding: 12px 25px;
+    cursor: pointer;
+    width: 200px;
+    height: 50px;
+}
+
+.main__button-2:hover {
+    background-color: var(--ui-title-color);
+    color: var(--background-color);
+}
+
+.main__text-button-2 {
+    font-size: 15px;
+}
