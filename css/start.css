@@ -7,8 +7,14 @@ section.start__class {
 }
 
 .start__div {
-    display: block;
+    display: flex;
     align-items: center;
+    padding: 50px;
+}
+.start__photo {
+    display: flex;
+    align-items: center;
+    padding: 50px;
 }
 
 @media (min-width: 560px) {
