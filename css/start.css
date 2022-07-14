@@ -16,7 +16,11 @@ section.start__class {
         grid-template-columns: 1fr 1fr;
     }
 }
+.start__photo {
+    padding: 0 50 0 50;
+}
 .start__content {
+    padding: 0 50 0 50;
     font-family: 'Kanin', sans-serif;
     text-align: left;
 }
