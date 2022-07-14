@@ -18,24 +18,29 @@ section.start__class {
         grid-template-columns: 1fr 1fr;
     }
 }
-.start__class {
-    background-color: #191919;
-    display: block;
+.start__content {
+    font-family: 'Kanin', sans-serif;
+    text-align: left;
 }
-
 .start__title {
-    font-family: 'Kanit', sans-serif;
     font-size: 38px;
     color: var(--ui-title-color);
+    text-transform: uppercase;
 }
 .start__subtitle {
     font-size: 19px;
-    color: rgb(220, 220, 220);
-    
+    color: var(--additional-text-color);
 }
 .start__paragraph-title {
     color: var(--text-ui-brand-color);
     text-transform: uppercase;
-    font-family: 'Kanin', sans-serif;
     font-size: 24px;
+}
+.start__paragraph-text {
+    color: var(--text-color);
+    font-size: 17px;
+}
+.start__paragraph-link {
+    color: var(--text-ui-brand-color);
+    font-size: 17px;
 }
