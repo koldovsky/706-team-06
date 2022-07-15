@@ -55,6 +55,25 @@
    
 }
 
-.main__button {
-    margin: 0 auto;
+.main__text-button {
+    display: flex;
+    font-weight: 700;
+    text-align: center;
+    cursor: pointer;
+    width: 180px;
+    height: 20px;
+    top: 20px;
+    align-items: center;
+    margin: auto;
+    padding: 25px 30px 25px 30px;
+    border:#d6fb00
+}
+
+.button__right-arrow {
+    width: 20px;
+    
+}
+
+.button__text {
+   
 }
