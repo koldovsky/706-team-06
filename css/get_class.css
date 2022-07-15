@@ -2,25 +2,27 @@ section.get-class {
     display: grid;
     justify-content: center;
     background-color: #191919;
-    margin: 0;
-    padding: 35px;
+    padding-top: 35px;
+    padding-bottom: 35px;
 }
 
 .container__get-class {
     display: grid;
     grid-template-columns: 1fr;
-    max-width: 980px;
+    max-width: 1200px;
     align-items: center;
+    gap: 35px;
 }
 
 @media (min-width: 560px) {
-    .container__get-class { 
+    .container__get-class {
         grid-template-columns: 1fr 1fr;
     }
 }
 
 .container__get-class-pic {
-    max-width: 980px;
+    max-width: 1200px;
+    min-width: 320px;
     width: fit-content;
     height: fit-content;
 }
