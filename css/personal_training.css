@@ -1,12 +1,10 @@
     .personal__training {
         display: flex;
-        background-color: #191919;
-        margin: 0;
+        background-color: var(--background-color);
+        margin-right: 60px;
         flex-direction: row;
         justify-content: space-between;
         align-items: stretch;
-        gap: 80px;
-
     }
 
     .main__header {
@@ -15,11 +13,10 @@
         align-items: left;
         justify-content: center;
         gap: 20px;
-
     }
 
     .main__img {
-        max-width: 100%;
+        max-width: 480px;
         height: auto;
     }
 
