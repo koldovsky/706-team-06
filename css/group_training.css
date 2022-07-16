@@ -2,32 +2,32 @@ section.group-training {
     display: grid;
     justify-content: center;
     background-color: #191919;
-    margin: 0;
-    padding: 35px;
+    padding-top: 35px;
+}
+
+.group-training__pic {
+    min-width: 320px;
 }
 
 .container__group-training {
     display: grid;
     grid-template-columns: 1fr;
-    max-width: 980px;
+    max-width: 1200px;
     align-items: center;
+    gap: 35px;
 }
 
 @media (min-width: 560px) {
-    .container__group-training { 
+    .container__group-training {
         grid-template-columns: 1fr 1fr;
     }
 }
 
-ul {
+ul.group-training__list {
     list-style: none;
 }
 
-ul {
-    list-style: none;
-}
-
-ul li::before {
+ul.group-training__list li::before {
     content: "\2022";
     color: var(--text-ui-brand-color);
     font-weight: bold;

@@ -1,7 +1,7 @@
     .personal__training {
         display: flex;
-        background-color: #191919;
-        margin: 0;
+        background-color: var(--background-color);
+        margin-right: 60px;
         flex-direction: row;
         justify-content: space-between;
         align-items: stretch;
@@ -10,55 +10,82 @@
     .main__header {
         display: flex;
         flex-direction: column;
+        align-items: left;
+        justify-content: center;
         gap: 20px;
     }
 
-    .main__button-2 {
-        border: 2px solid #FFFFFF;
-        border-radius: 0px;
-
-    }
-
-    .main__button-2:hover {
-        width: 209px;
-        height: 51px;
+    .main__img {
+        max-width: 480px;
+        height: auto;
     }
 
     .main__benefits-section {
         display: flex;
         flex-direction: row;
-        background-color: #191919;
+        background-color: var(--background-color);
+        justify-content: space-between;
+        align-items: stretch;
+        margin-top: 100px;
+    }
+
+    .main__benefits {
+        display: flex;
+        flex-direction: column;
+        align-items: left;
+        justify-content: left;
+        gap: 20px;
+        width: 250px;
+        overflow-wrap: break-word;
+
+    }
+
+    @media (min-width: 560px) {
+        .main__header {
+            grid-template-columns: 1fr;
+        }
     }
 
     .benefits-icon {
         width: 50px;
         height: 50px;
+
     }
 
-
-
-    .main__title {
+    .main__title-2 {
         font-family: 'Kanit', sans-serif;
-        font-size: 38px;
+        font-size: 46px;
         color: var(--ui-title-color);
+        font-weight: 700px;
+        text-align: left;
+        line-height: 50px;
+        letter-spacing: 2px;
     }
 
     .main__subtitle {
         font-size: 19px;
-        color: #DCDCDC;
+        color: var(ui-light-accent-color);
+        font-family: 'Kanit', sans-serif;
     }
 
     .main__text-block {
         font-size: 17px;
-    }
-
-    .main__text-button-2 {
-        font-size: 15px;
+        font-family: 'Kanit', sans-serif;
+        color: var(--text-color);
+        width: 450px;
     }
 
     .main__picture-title-benefits {
         font-family: 'Kanit', sans-serif;
-        font-size: 24px;
-        color: white;
+        font-size: 21px;
+        color: var(--ui-title-color);
+        text-align: left;
+        font-stretch: 100%;
+        font-weight: bold;
+    }
 
+    .main__text-block-benefits {
+        font-family: 'Poppins', sans-serif;
+        color: var(--text-color);
+        font-size: 17px;
     }

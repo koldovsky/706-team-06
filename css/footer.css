@@ -1,0 +1,249 @@
+.footer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    justify-content: center;
+    width: 100%;
+
+}
+.footer__fitb {
+    max-width: 200px;
+    min-width: 150px;
+    display: flex;
+    flex-direction: column;
+    padding: 0 15px;
+}
+.footer_fitb__logo {
+    height: 43px;
+    width: 130px;
+}
+.footer__fitb__text {
+    margin: 20px 0;
+    font-family: Poppins Medium;
+    color: #8f8f8f;
+}
+.footer__fitb__links {
+    
+    display: inline-flex;
+    
+}
+.footer__fitb__links__fb {
+    margin-right: 10px;
+}
+.footer__fitb__links__inst {
+    margin-right: 10px;
+}
+.footer__fitb__links__tweet {
+    margin-right: 10px;
+}
+.footer__fitb__links__youtb {
+}
+.footer__navigation {
+    max-width: 200px;
+    min-width: 150px;
+    display: flex;
+    flex-direction: column;
+    padding: 0 15px;
+}
+.footer__navigation__title {
+    font-family: Poppins;
+    color: #fff;
+}
+.footer__navigation__list {
+    
+
+}
+.navigation__list__about-us {
+    font-family: Poppins Medium;
+    color: #8f8f8f;
+    text-decoration: none;
+}
+.navigation__list__about-us:hover {
+    color: #fff;
+    text-decoration: underline;
+}
+.navigation__list__classes {
+    font-family: Poppins Medium;
+    color: #8f8f8f;
+    text-decoration: none;
+}
+
+.navigation__list__classes:hover {
+    color: #fff;
+    text-decoration: underline;
+}
+
+.navigation__list__testimonials {
+    font-family: Poppins Medium;
+    color: #8f8f8f;
+    text-decoration: none;
+}
+.navigation__list__testimonials:hover{
+    color: #fff;
+    text-decoration: underline;
+}
+
+.navigation__list__schedule {
+    font-family: Poppins Medium;
+    color: #8f8f8f;
+    text-decoration: none;
+}
+.navigation__list__schedule:hover{
+    color: #fff;
+    text-decoration: underline;
+}
+
+.footer__information {
+    max-width: 200px;
+    min-width: 150px;
+    display: flex;
+    flex-direction: column;
+    padding: 0 15px;
+}
+.footer__information__title {
+    font-family: Poppins;
+    color: #fff;
+}
+.footer__information__list {
+}
+.information__list__trainers {
+    font-family: Poppins Medium;
+    color: #8f8f8f;
+    text-decoration: none;
+}
+.information__list__trainers:hover {
+    color: #fff;
+    text-decoration: underline;
+}
+.information__list__perstr {
+    font-family: Poppins Medium;
+    color: #8f8f8f;
+    text-decoration: none;
+}
+.information__list__perstr:hover{
+    color: #fff;
+    text-decoration: underline;
+}
+.information__list__plans {
+    font-family: Poppins Medium;
+    color: #8f8f8f;
+    text-decoration: none;
+}
+.information__list__plans:hover {
+    color: #fff;
+    text-decoration: underline;
+}
+.information__list__blog {
+    font-family: Poppins Medium;
+    color: #8f8f8f;
+    text-decoration: none;
+}
+.information__list__blog:hover{
+    color: #fff;
+    text-decoration: underline;
+}
+.footer__clients {
+    max-width: 200px;
+    min-width: 150px;
+    display: flex;
+    flex-direction: column;
+    padding: 0 15px;
+}
+.footer__clients__title {
+    font-family: Poppins;
+    color: #fff;
+}
+.footer__clients__list {
+}
+.clients__list__fitness-tips {
+    font-family: Poppins Medium;
+    color: #8f8f8f;
+    text-decoration: none;
+}
+.clients__list__fitness-tips:hover{
+    color: #fff;
+    text-decoration: underline;
+}
+.clients__list__faq {
+    font-family: Poppins Medium;
+    color: #8f8f8f;
+    text-decoration: none;
+}
+.clients__list__faq:hover{
+    color: #fff;
+    text-decoration: underline;
+}
+.clients__list__workoutprg {
+    font-family: Poppins Medium;
+    color: #8f8f8f;
+    text-decoration: none;
+}
+.clients__list__workoutprg:hover{
+    color: #fff;
+    text-decoration: underline;
+}
+.clients__list__fitness-camps {
+    font-family: Poppins Medium;
+    color: #8f8f8f;
+    text-decoration: none;
+}
+.clients__list__fitness-camps:hover{
+    color: #fff;
+    text-decoration: underline;
+}
+.footer__form {
+    max-width: 200px;
+    min-width: 150px;
+    display: flex;
+    flex-direction: column;
+    padding: 0 15px;
+}
+.footer__form__text {
+font-family: Poppins Medium;
+color: #8f8f8f;
+}
+.footer__form__email {
+    background-color: rgba(116, 116, 116, 0.05);
+    color:#fff ;
+    font-family: Poppins;
+    box-sizing: border-box;
+    border: none;
+    margin-top: 12px;
+    padding: 15px 10px;
+}
+
+.footer__form__subskribe {
+    background-color: #d6fb00;;
+    font-family: Poppins;
+    margin-top: 10px;
+    width: 170px;
+    height: 40px;
+}
+.footer__form__subskribe:hover{
+    background-color:#fff;
+    cursor: pointer;
+}
+.prefooter{
+display: flex;
+justify-content: space-between;
+margin-bottom: 20px;
+}
+.prefooter__text__left{
+display: flex;
+font-family: Poppins Medium;
+color: #8f8f8f;
+}
+.prefooter__text__right{
+    display: flex;
+    font-family: Poppins Medium;
+    color: #8f8f8f;
+}
+@media (max-width:320px){
+    body{
+        padding: 0;
+    }
+    .footer{
+     flex-direction: column;
+    }
+}

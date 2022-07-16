@@ -2,7 +2,6 @@
     background-image: url(../img/bg-image-latest-artcl.png);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 840px;
     display: flex;
     flex-direction: column;
 }
@@ -11,23 +10,28 @@
     flex-direction: row;
     flex-wrap: wrap;
     align-items: stretch;
-    justify-content: center;
-    gap: 20px;
+    justify-content: space-between;
 }
 .first__acticle__el{
-    width: 370px;
+    min-width: 300px;
+    max-width: 400px;
+    width: 32%;
     display: flex;
     flex-direction: column;
     gap: 20px;
 }
 .second__acticle__el{
-    width: 370px;
+    min-width: 300px;
+    max-width: 400px;
+    width: 32%;
     display: flex;
     flex-direction: column;
     gap: 20px;
 }
 .third__acticle__el{
-    width: 370px;
+    min-width: 300px;
+    max-width: 400px;
+    width: 32%;
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -39,7 +43,6 @@
     text-transform: uppercase;
     margin-bottom: 20px;
     margin-top: 30px;
-    padding-left: 87px;
 }
 .latest__article__caption{
     color: var(--ui-title-color);
@@ -48,17 +51,18 @@
 .latest__articles__title{
     color: var(--text-ui-brand-color);
     text-transform: uppercase;
-    font-family: 'Kanin', sans-serif;
+    font-family: 'Kanit', sans-serif;
     font-size: 22px;
 }
 
 .latest__articles__text{
     color: var(--text-color);
+    flex-grow: 1;
 }
 
 .latest__articles__image{
-    height: 250px;
-    width: 350px;
+    width: 100%;
+    height: auto;
 }
 
 .latest__article__link{
@@ -68,3 +72,56 @@
     color: var(--ui-title-color);
 }
 
+/*Responsive*/
+/*Mobile S*/
+@media (max-width: 320px){
+    body{
+        padding: 0;
+    }
+    .latest__articles_section{
+        justify-content: center;
+        align-items: center;
+        max-width: 100%;
+    }
+    .latest__articles{
+        flex-direction: column;
+        max-width: 100%;
+    }
+    .first__acticle__el{
+        max-width: 100%;
+    }
+    .second__acticle__el{
+        max-width: 100%;
+    }
+    .third__acticle__el{
+        max-width: 100%;
+    }
+}
+/*Mobile M*/
+@media (max-width: 375px){
+    .latest__articles_section{
+        justify-content: center;
+        align-items: center;
+        max-width: 375px;
+    }
+}
+/*Mobile L*/
+@media (max-width: 425px){
+    .latest__articles_section{
+        justify-content: center;
+        align-items: center;
+        max-width: 400px;
+    }
+}
+/*Tablet*/
+@media (max-width: 900px){
+    .latest__articles_section{
+        justify-content: space-around;
+        align-items: center;
+        max-width: 400px;
+        gap: 50px;
+    }
+    .latest__articles__main_title{
+        align-self: flex-start;
+    }
+}
