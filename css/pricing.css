@@ -63,13 +63,10 @@
     color: var(--additional-p-color);
 }
 
-.plan__details {
-    list-style: none;
-}
-
 .plan__detail {
     color: var(--text-color);
 }
+
 .circle__check {
     width: 20px;
     height: 24px;
