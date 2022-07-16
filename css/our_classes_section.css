@@ -1,16 +1,19 @@
 .main__our-classes {
     background-image: url(../img/classes.svg);  
+    background-repeat:no-repeat ;
+    margin: auto;
 }
 
-.main__container {
-    min-width: 320px;
-    max-width: 1200px;
-    margin: 0 auto;
-    color: #fff;
+   .main__container {
+      min-width: 320px;
+      max-width: 1200px;
+      color: #fff;
+      margin: auto;
 }
 
 .main__header-our-classes {
     text-align: center; 
+    margin: 200px auto 0;
 }
 
 .main__title {
@@ -18,13 +21,13 @@
     line-height: 1.1;
     letter-spacing: .02em;
     font-family: Kanit,sans-serif;
-    margin: 100px auto 35px;
 }
 
 .main__subtitle {
-    font-size: 25px;
+    font-size: 30px;
     font-weight: 400;
     color:  #dcdcdc;
+    margin: 20px auto 0;
 }
 
 .main__picture-ball-subtitle, .main__picture-ropes-subtitle, 
@@ -43,41 +46,53 @@
 .main__picture-ball-text, .main__picture-ropes-text, 
 .main__picture-barbell-text, .main__picture-stationary-bikes-text {
    color:#707070;
-   font-size: 17px;
+   font-size: 15px;
    line-height: 1.5;
    letter-spacing: .05em;
-   width: 255px;
-   
+   width: 255px; 
 }
 
 .main__accordion {
     display: flex;
-    margin: 100px auto 100px;  
+    justify-content: center;
     gap: 10px;
-    margin-left: 90px;
-    margin-right: 90px;
+    margin-top: 40px ;
 }
+
+
 
 .main__picture-ball, .main__picture-ropes, 
 .main__picture-barbell, .main__picture-stationary-bikes {
     width: 230px;
-    height: 300px; 
-    object-fit: cover;  
+    height: 300px;  
+    object-fit: cover;
 }
 
 
-.main__icon-plus-ball, .main__icon-plus-ropes, 
-.main__icon-plus-barbell, .main__icon-plus-stationary-bikes{
-   text-align: end;
-   width: 230px;
-   font-size: 30px;
-   cursor: pointer;
-   
+.main__picture-ball-vertical-line, 
+.main__picture-ropes-vertical-line, 
+.main__picture-barbell-vertical-line, 
+.main__picture-stationary-bikes-vertical-line{
+    border: 0;
+    border-left: 2px solid ;
+    display: block;
+    height: 20px; 
+    position: relative;
+    bottom: 45px;
+    left: 235px;
+    margin: auto 0;
+    cursor: pointer;
 }
 
-.main__text-button {
-    background-color: #d6fb00;
-   
+.main__picture-ball-horisontal-line, 
+.main__picture-ropes-horisontal-line, 
+.main__picture-barbell-horisontal-line, 
+.main__picture-stationary-bikes-horisontal-line{
+    width: 20px;
+    position: relative;
+    bottom: 25px;
+    left: 108.5px;
+    cursor: pointer;
 }
 
 .main__text-button {
@@ -91,10 +106,21 @@
     height: 20px;
     top: 20px;
     align-items: center;
-    margin: auto;
+    margin: 0 auto 100px;
     padding: 25px 30px 25px 30px;
     border:#d6fb00;
-    margin-bottom: 100px;
+    background-color: #d6fb00; 
+    
+}
+
+.main__text-button{
+transition-duration: .5s;
+}
+
+.main__text-button:hover {
+    
+    background-color: #fff;
+    color: black;
 }
 
 .button__right-arrow {
