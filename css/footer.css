@@ -210,12 +210,17 @@ color: #8f8f8f;
     margin-top: 12px;
     padding: 15px 10px;
 }
+
 .footer__form__subskribe {
     background-color: #d6fb00;;
     font-family: Poppins;
     margin-top: 10px;
     width: 170px;
     height: 40px;
+}
+.footer__form__subskribe:hover{
+    background-color:#fff;
+    cursor: pointer;
 }
 .prefooter{
 display: flex;
