@@ -1,15 +1,17 @@
 .footer {
     display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
     box-sizing: border-box;
     justify-content: center;
     width: 100%;
 
 }
 .footer__fitb {
+    max-width: 200px;
+    min-width: 150px;
     display: flex;
     flex-direction: column;
-    height: 216px;
-    width: 200px;
     padding: 0 15px;
 }
 .footer_fitb__logo {
@@ -38,10 +40,10 @@
 .footer__fitb__links__youtb {
 }
 .footer__navigation {
+    max-width: 200px;
+    min-width: 150px;
     display: flex;
     flex-direction: column;
-    height: 216px;
-    width: 200px;
     padding: 0 15px;
 }
 .footer__navigation__title {
@@ -93,10 +95,10 @@
 }
 
 .footer__information {
+    max-width: 200px;
+    min-width: 150px;
     display: flex;
     flex-direction: column;
-    height: 216px;
-    width: 200px;
     padding: 0 15px;
 }
 .footer__information__title {
@@ -142,10 +144,10 @@
     text-decoration: underline;
 }
 .footer__clients {
+    max-width: 200px;
+    min-width: 150px;
     display: flex;
     flex-direction: column;
-    height: 216px;
-    width: 200px;
     padding: 0 15px;
 }
 .footer__clients__title {
@@ -191,10 +193,10 @@
     text-decoration: underline;
 }
 .footer__form {
+    max-width: 200px;
+    min-width: 150px;
     display: flex;
     flex-direction: column;
-    height: 216px;
-    width: 200px;
     padding: 0 15px;
 }
 .footer__form__text {
@@ -236,4 +238,12 @@ color: #8f8f8f;
     display: flex;
     font-family: Poppins Medium;
     color: #8f8f8f;
+}
+@media (max-width:320px){
+    body{
+        padding: 0;
+    }
+    .footer{
+     flex-direction: column;
+    }
 }
