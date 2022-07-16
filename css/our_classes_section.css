@@ -108,24 +108,19 @@
     padding: 25px 30px 25px 30px;
     border:#d6fb00;
     background-color: #d6fb00; 
-    
 }
 
 .main__text-button{
-transition-duration: .5s;
+    transition-duration: .5s;
 }
 
 .main__text-button:hover {
-    
     background-color: #fff;
     color: black;
 }
 
 .button__right-arrow {
     width: 20px;
-    
+    margin-right: 5px;
 }
 
-.button__text {
-   margin-left: 8px;
-}
