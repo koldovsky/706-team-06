@@ -3,8 +3,9 @@
     flex-direction: row;
     flex-wrap: wrap;
     box-sizing: border-box;
-    justify-content: center;
+    justify-content: space-between;
     width: 100%;
+    margin: 40px 0;
 
 }
 .footer__fitb {
@@ -12,7 +13,6 @@
     min-width: 150px;
     display: flex;
     flex-direction: column;
-    padding: 0 15px;
 }
 .footer_fitb__logo {
     height: 43px;
@@ -37,8 +37,6 @@
 .footer__fitb__links__tweet {
     margin-right: 10px;
 }
-.footer__fitb__links__youtb {
-}
 .footer__navigation {
     max-width: 200px;
     min-width: 150px;
@@ -51,7 +49,7 @@
     color: #fff;
 }
 .footer__navigation__list {
-    
+    list-style: none;
 
 }
 .navigation__list__about-us {
@@ -106,6 +104,8 @@
     color: #fff;
 }
 .footer__information__list {
+    list-style: none;
+
 }
 .information__list__trainers {
     font-family: Poppins Medium;
@@ -155,6 +155,8 @@
     color: #fff;
 }
 .footer__clients__list {
+    list-style: none;
+
 }
 .clients__list__fitness-tips {
     font-family: Poppins Medium;
@@ -197,7 +199,6 @@
     min-width: 150px;
     display: flex;
     flex-direction: column;
-    padding: 0 15px;
 }
 .footer__form__text {
 font-family: Poppins Medium;
@@ -217,7 +218,7 @@ color: #8f8f8f;
     background-color: #d6fb00;;
     font-family: Poppins;
     margin-top: 10px;
-    width: 170px;
+    width: 200px;
     height: 40px;
 }
 .footer__form__subskribe:hover{
