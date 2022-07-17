@@ -47,9 +47,11 @@
 .footer__navigation__title {
     font-family: Poppins;
     color: #fff;
+    margin-bottom: 15px;
 }
 .footer__navigation__list {
     list-style: none;
+    line-height: 33px;
 
 }
 .navigation__list__about-us {
@@ -102,9 +104,11 @@
 .footer__information__title {
     font-family: Poppins;
     color: #fff;
+    margin-bottom: 15px;
 }
 .footer__information__list {
     list-style: none;
+    line-height: 33px;
 
 }
 .information__list__trainers {
@@ -153,9 +157,11 @@
 .footer__clients__title {
     font-family: Poppins;
     color: #fff;
+    margin-bottom: 15px;
 }
 .footer__clients__list {
     list-style: none;
+    line-height: 33px;
 
 }
 .clients__list__fitness-tips {
@@ -199,6 +205,7 @@
     min-width: 150px;
     display: flex;
     flex-direction: column;
+    line-height: 30px;
 }
 .footer__form__text {
 font-family: Poppins Medium;
