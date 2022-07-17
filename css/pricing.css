@@ -1,17 +1,26 @@
 .plans {
     background-color: var(--background-color);
+    padding: 70px 40px 40px 40px;
 }
 .plans__title {
     font-family: 'Kanit', sans-serif;
     font-size: 38px;
+    font-weight: 700;
     color: var(--ui-title-color);
     text-align: center;
 }
 
 .plans__choose {
     font-size: 19px;
+    font-weight: 500;
     color: var(--additional-text-color);
     text-align: center;
+    margin-top: 25px;
+}
+
+.plans__types {
+    width: 100%;
+    margin-top: 50px;
 }
 
 @media (min-width: 500px) {
@@ -36,53 +45,73 @@
 
 .plan__type {
     background-color: var(--additional-background-color);
-    padding: 0 15px 0 15px;
-    border: 5px solid var(--background-color);
+    margin-left: 15px;
+    margin-right: 15px;
+    padding: 50px 30px 50px 30px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
 }
 
 .plan__title {
     font-family: 'Kanit', sans-serif;
     font-size: 22px;
+    font-weight: 700;
     color: var(--text-color);
 }
 
 .plan__price {
     font-family: 'Kanit', sans-serif;
     font-size: 30px;
+    font-weight: 600;
     color: var(--text-ui-brand-color);
+    margin-top: 20px;
 }
 
 .plan__price-detail {
-    font-family: 'Kanit', sans-serif;
-    font-size: 30px;
     color: var(--ui-title-color);
 }
 
 .plan__intensity {
     font-size: 14px;
+    font-weight: 500;
     color: var(--additional-p-color);
+    margin-top: 25px;
+}
+.plan__details {
+    margin-top: 20px;
 }
 
-.plan__details {
+.plan__details .plan__detail{
     list-style: none;
 }
 
 .plan__detail {
     color: var(--text-color);
+    margin-bottom: 16px;
+    display: flex;
 }
+
 .circle__check {
     width: 20px;
     height: 24px;
-    display: inline;
+    margin-right: 10px;
 }
 .select__plan {
     font-size: 14px;
+    font-weight: 700;
     color: var(--button-text-color);
     background-color: var(--text-ui-brand-color);
     cursor: pointer;
+    margin-top: 45px;
+    display: flex;
+    align-items: center;
+    padding: 15px 26px 15px 26px;
+    justify-content: center;
 }
+
 .right__arrow {
     width: 24px;
     height: 24px;
-    display: inline;
 }
