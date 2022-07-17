@@ -12,13 +12,7 @@ section.start__class {
     padding: 50px;
 }
 .start__photo {
-    display: flex;
-    align-items: center;
-    padding: 50px;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
+    min-width: 320px;
 }
 
 @media (min-width: 560px) {
