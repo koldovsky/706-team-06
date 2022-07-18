@@ -54,6 +54,7 @@
 
 .main__accordion {
     display: flex;
+    flex-direction: row;
     justify-content: center;
     gap: 10px;
     margin-top: 40px ;
@@ -72,6 +73,7 @@
 .main__picture-barbell-vertical-line, 
 .main__picture-stationary-bikes-vertical-line{
     border: 0;
+    display: block;
     border-left: 2px solid ;
     display: block;
     height: 15px; 
@@ -86,6 +88,7 @@
 .main__picture-ropes-horisontal-line, 
 .main__picture-barbell-horisontal-line, 
 .main__picture-stationary-bikes-horisontal-line{
+    display: block;
     width: 15px;
     position: relative;
     bottom: 25px;
@@ -122,5 +125,55 @@
 .button__right-arrow {
     width: 20px;
     margin-right: 5px;
+}
+
+@media (max-width:960px) {
+    .main__accordion { 
+        display: grid;
+        flex-direction: column;
+        grid-template-columns: 1fr 1fr;
+        align-items: center;      
+}
+
+@media (max-width:400px){
+    .main__accordion {
+        display: grid;
+        flex-direction: column;
+        grid-template-columns: 1fr;
+        align-items: center;  
+    }   
+
+    .main__picture-ball, .main__picture-ropes, 
+    .main__picture-barbell, .main__picture-stationary-bikes {
+        object-fit: cover;
+        margin: auto;
+}
+}
+
+    .main__button {
+       align-items: center;
+       margin: 70px auto;
+    }
+
+    .main__picture-ball, .main__picture-ropes, 
+    .main__picture-barbell, .main__picture-stationary-bikes {
+        object-fit: cover;
+        margin: auto;
+}
+
+
+
+   .main__picture-ball-text, .main__picture-ropes-text, 
+   .main__picture-barbell-text, .main__picture-stationary-bikes-text {
+   margin: auto;
+}
+
+.main__container {
+    max-width: 1200px;
+    margin: auto;
+}
+   hr {
+    display: block;
+   }
 }
 
