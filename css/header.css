@@ -35,7 +35,7 @@
     text-decoration: underline;
 }
 
-.header_logo-img {
+.header_logo-img, .header__nav-logo{
     height: 43px;
     width: 130px;
 }
@@ -137,6 +137,13 @@ h1 {
 @media (min-width: 767px) {
     h1 {
         font-size: 73px !important;
+    }
+
+    .header__horizontal-bar{
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: space-around;
     }
 }
 
