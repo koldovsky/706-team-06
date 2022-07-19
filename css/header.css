@@ -135,7 +135,6 @@ h1 {
         display: flex;
         flex-direction: row;
         align-items: flex-start;
-        /* justify-content:; */
         flex-wrap: wrap;
     }
 
@@ -146,7 +145,7 @@ h1 {
     }
 }
 
-@media (max-width: 878px) {
+@media (max-width: 632px) {
     .header {
         background-image: none;
         background-color: var(--background-color);
