@@ -1,0 +1,110 @@
+.main__start {
+    display: flex;
+    font-family: Poppins;
+    justify-content: space-between;
+}
+.main__start__paragraph {
+}
+.main__start__paragraph__title {
+    display: flex;
+    font-family: Kanit;
+    font-size: 54px;
+    color: #fff;
+    text-transform: uppercase;
+}
+.main__start__paragraph__subtitle {
+    display: flex;
+    color: #dcdcdc;
+    font-family: Poppins;
+    font-size: 19px;
+}
+.main__start__paragraph__text {
+    margin-top: 20px;
+    width: 570px;
+    display: flex;
+    font-family: Poppins;
+    font-size: 19px;
+    color: #8f8f8f;
+}
+.main__start__paragraph__consultacion {
+
+}
+.start__paragraph__button {
+    margin: 20px 0;
+    background-color: #d6fb00;
+    color: #191919;
+    width: 250px;
+    height: 50px;
+}
+.start__paragraph__button:hover{
+    background-color: #fff;
+}
+.main__start__nav {
+    display: flex;
+    flex-direction: column;
+}
+.main__start__nav__adress {
+    font-family: Poppins;
+}
+.main__start__nav__adress__title {
+    color: #fff;
+    font-family: Kanit;
+    text-transform: uppercase;
+    font-size: 21px;
+}
+.main__start__nav__adress__street {
+    margin-top: 10px;
+    color: #8f8f8f;
+   
+}
+.main__start__nav__phone {
+    margin-top: 10px;
+}
+.main__start__nav__phone__title {
+    font-family: Kanit;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 21px;
+}
+.main__start__nav__phone__number {
+    margin-top: 10px;
+    color: #8f8f8f;
+}
+.main__start__nav__phone__number:hover{
+    text-decoration: underline;
+}
+.main__start__nav__email {
+    color: #8f8f8f;
+    margin-top: 10px;
+}
+.main__start__nav__email__title {
+    font-family: Kanit;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 21px;
+}
+.main__start__nav__email__adress {
+    color: #8f8f8f;
+    margin-top: 10px;
+}
+.main__start__nav__email__adress:hover{
+    text-decoration: underline;
+}
+.main__start__nav__operating {
+}
+.main__start__nav__operating__title {
+    font-family: Kanit;
+    margin-top: 10px;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 21px;
+}
+.main__start__nav__operating__from {
+    color: #8f8f8f;
+    margin-top: 10px;
+}
+.main__start__nav__operating__to {
+    color: #8f8f8f;
+}
+.main__start__carousell {
+}
