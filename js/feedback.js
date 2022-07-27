@@ -1,8 +1,7 @@
+document.addEventListener("DOMContentLoaded", function () {
 
-(function () {
-
-const carouselItem = [
-    `<div class="carousel__feedback__item">
+    const carouselItem = [
+`  <div class="carousel__feedback__item">
            <div class="carousel-feedback-el active">
               <img class="feedback_img" src="img/feedback.svg" alt="quote" />
               <h2 class="feedback_heading">
@@ -13,8 +12,8 @@ const carouselItem = [
               <p class="feedback_text">Jane Williams</p>
               <p class="feedback__small-text">March 12, 2021</p>
             </div>
-          </div>
-          <div class="carousel__feedback__item">
+          </div>`,
+          `<div class="carousel__feedback__item">
             <div class="carousel-feedback-el active">
               <img class="feedback_img" src="img/feedback.svg" alt="quote" />
               <h2 class="feedback_heading">
@@ -25,42 +24,45 @@ const carouselItem = [
               <p class="feedback_text">Eric Flanders</p>
               <p class="feedback__small-text">November 03, 2021</p>
             </div>
+          </div>`,
+          `<div class="carousel__feedback__item">
+          <div class="carousel-feedback-el active">
+            <img class="feedback_img" src="img/feedback.svg" alt="quote" />
+            <h2 class="feedback_heading">
+              “I'm so happy I found this fitness club! It's 2 minutes away
+              from my office and I attend group classes each evening. I feel
+              great, sporty, and healthy!”
+            </h2>
+            <p class="feedback_text">Daniel Peterson</p>
+            <p class="feedback__small-text">December 15, 2020</p>
           </div>
-          <button class="feedback__btn-right">
-            <span class="feedback__btn_span">
-              <img class="fdb_arrow" src="img/feedback-right-arrow.svg" alt="scroll arrow" />
-            </span>
-          </button>
-          <button class="feedback__btn-left">
-            <span class="feedback__btn_span">
-              <img class="fdb_arrow" src="img/feedback-left-arrow.svg" alt="scroll arrow" />
-            </span>
-          </button>`
-          ];
-    
-    let itemIndex = 0; 
+          </div>`
+    ];
 
-    function feedbackCarousel (){
-        const carouselContainer = document.querySelector('.carousel_controls');
+    let itemIndex = 0;
+
+    function feedbackCarousel() {
+        const carouselContainer = document.querySelector('.carousel-wrapper');
         carouselContainer.innerHTML = carouselItem[itemIndex];
     }
-    function next (){
+    function next() {
         itemIndex = itemIndex + 1 >= carouselItem.length ? 0 : itemIndex + 1;
         feedbackCarousel();
     }
-    function previous (){
-        itemIndex = itemIndex - 1 <0 ? carouselItem.length - 1 : itemIndex - 1;
+    function previous() {
+        itemIndex = itemIndex - 1 < 0 ? carouselItem.length - 1 : itemIndex - 1;
         feedbackCarousel();
     }
 
     const nextButton = document.querySelector('.feedback__btn-right');
     nextButton.addEventListener('click', next);
+    // console.log(nextButton)
 
     const previousButton = document.querySelector('.feedback__btn-left');
-    nextButton.addEventListener('click', previous);
+    previousButton.addEventListener('click', previous);
 
     feedbackCarousel();
-          }) ();
+});
 
 
 // nextButton.addEventListener ("click", () => {

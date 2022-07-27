@@ -10,7 +10,7 @@
 }
 
 .carousel-feedback-el{
-    width: 33%;
+    width: 40%;
 }
 .feedback_heading{
     color: var(--ui-title-color);
@@ -53,6 +53,16 @@
     z-index: 10;
     background: none;
     border: none;
+}
+
+.feedback__btn-right{
+    width: 50px;
+    height: 50px;
+}
+
+.feedback__btn-left{
+    width: 50px;
+    height: 50px;
 }
 
 .carousel__feedback__item{
