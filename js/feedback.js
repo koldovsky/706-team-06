@@ -63,14 +63,3 @@ document.addEventListener("DOMContentLoaded", function () {
 
     feedbackCarousel();
 });
-
-
-// nextButton.addEventListener ("click", () => {
-//     const feedbckWidth = carouselItem.clientWidth;
-//     feedbackCarousel.scrollLeft += feedbckWidth;
-// })
-
-// prevButton.addEventListener ("click", () => {
-//     const feedbckWidth = carouselItem.clientWidth;
-//     feedbackCarousel.scrollLeft -= feedbckWidth;
-// })
