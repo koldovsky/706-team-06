@@ -117,3 +117,21 @@
     width: 24px;
     height: 24px;
 }
+
+.discount__timer {
+    font-family: 'Kanit', sans-serif;
+    font-size: 38px;
+    font-weight: 700;
+    color: var(--ui-title-color);
+    text-align: center;
+}
+
+.discount__offer {
+    font-size: 19px;
+    font-weight: 500;
+    color: var(--text-ui-brand-color);
+}
+
+.discount__timer p {
+    display: inline;
+}
