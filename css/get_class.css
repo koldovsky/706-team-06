@@ -9,7 +9,7 @@ section.get-class {
 .container__get-class {
     display: grid;
     grid-template-columns: 1fr;
-    max-width: 1200px;
+    max-width: 1150px;
     align-items: center;
     gap: 35px;
 }
@@ -29,7 +29,7 @@ section.get-class {
 
 .get-class__schedule-text {
     font-family: 'Kanit', sans-serif;
-    font-size: 17px;
+    font-size: 19px;
     color: var(--text-color);
 }
 
@@ -39,19 +39,23 @@ section.get-class {
 
 .get-class__email-text {
     font-family: 'Kanit', sans-serif;
-    font-size: 14px;
+    font-size: 17px;
     color: var(--text-color);
 }
 
 .get-class__email-value {
     font-family: 'Kanit', sans-serif;
-    font-size: 14px;
+    font-size: 17px;
     color: var(--text-ui-brand-color);
+}
+
+.get-class__email-value:hover {
+    color: var(--ui-title-color);
 }
 
 .container__get-class-tel {
     font-family: 'Kanit', sans-serif;
-    font-size: 14px;
+    font-size: 17px;
     text-align: center;
 }
 
@@ -61,6 +65,10 @@ section.get-class {
 
 .container__get-class-tel .get-class__tel-value {
     color: var(--text-ui-brand-color);
+}
+
+.container__get-class-tel .get-class__tel-value:hover {
+    color: var(--ui-title-color);
 }
 
 .container__get-class-pic {
@@ -87,5 +95,5 @@ section.get-class {
 }
 
 .container__get-class-pic .get-class-but:hover {
-    background-color: #dcdcdc;
+    background-color: var(--ui-title-color);
 }
