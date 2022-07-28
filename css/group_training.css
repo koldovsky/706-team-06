@@ -12,7 +12,7 @@ section.group-training {
 .container__group-training {
     display: grid;
     grid-template-columns: 1fr;
-    max-width: 1200px;
+    max-width: 1150px;
     align-items: center;
     gap: 35px;
 }

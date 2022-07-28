@@ -20,13 +20,6 @@ section.get-class {
     }
 }
 
-.container__get-class-pic {
-    max-width: 1200px;
-    min-width: 320px;
-    width: fit-content;
-    height: fit-content;
-}
-
 .get-class-header__title {
     font-family: 'Kanit', sans-serif;
     font-size: 46px;
@@ -56,16 +49,43 @@ section.get-class {
     color: var(--text-ui-brand-color);
 }
 
-.get-class__tel-text {
+.container__get-class-tel {
     font-family: 'Kanit', sans-serif;
     font-size: 14px;
-    color: var(--text-color);
     text-align: center;
 }
 
-.get-class__tel-value {
-    font-family: 'Kanit', sans-serif;
-    font-size: 14px;
+.container__get-class-tel .get-class__tel-text {
+    color: var(--text-color);
+}
+
+.container__get-class-tel .get-class__tel-value {
     color: var(--text-ui-brand-color);
-    text-align: center;
+}
+
+.container__get-class-pic {
+    position: relative;
+    width: 100%;
+}
+
+.container__get-class-pic .get-class-but {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: var(--text-ui-brand-color);
+    padding: 30px 30px;
+    border: none;
+    cursor: pointer;
+    border-radius: 300px;
+}
+
+.container__get-class-pic img {
+    width: 100%;
+    height: auto;
+}
+
+.container__get-class-pic .get-class-but:hover {
+    background-color: #dcdcdc;
 }
