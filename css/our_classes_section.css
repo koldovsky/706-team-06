@@ -71,13 +71,14 @@
 .main__picture-ropes-vertical-line, 
 .main__picture-barbell-vertical-line, 
 .main__picture-stationary-bikes-vertical-line{
-    height: 15px;
+    height: 14px;
     border: 0;
     border-left: 2px solid ;
     position: relative;
     bottom: 42px;
-    left: 235.6px;
+    left: 235.5px;
     cursor: pointer;
+    color:#dcdcdc;
 }
 
 .main__picture-ball-horisontal-line, 
@@ -85,11 +86,15 @@
 .main__picture-barbell-horisontal-line, 
 .main__picture-stationary-bikes-horisontal-line{
     width: 15px;
+    border: 0;
+    border-top:2px solid ;
     position: relative;
     bottom: 25px;
-    left: 108.6px;
+    left: 108.4px;
     cursor: pointer;
+    color: #dcdcdc;
 }
+
 
 .main__text-button {
     font-size: 17px;
