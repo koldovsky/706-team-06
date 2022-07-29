@@ -313,12 +313,22 @@
           </div>
         </div>
         <br />
-        <div class="container__get-class-pic">
-          <img src="img/group-of-two-training.png" alt="Group Training of Two" />
-          <br />
-          <button class="get-class-but"><img src="img/get-class-button.svg" alt="Group Training of Two button" />
-          </button>
-        </div>
+        <div class="getclass-images-slideshow">
+          <div class="getclass-imageSlides fade">
+              <img class="getclass-imageSlides-img" src="img/group-of-two-training.png" alt="">
+          </div>
+          <div class="getclass-imageSlides fade">
+              <img class="getclass-imageSlides-img" src="img/group-of-three-yoga.png" alt="">
+          </div>
+          <div class="getclass-imageSlides fade">
+              <img class="getclass-imageSlides-img" src="img/group-of-three-aerobics.png" alt="">
+          </div>
+          <div class="getclass-imageSlides fade">
+              <img class="getclass-imageSlides-img" src="img/group-of-two-yoga.png" alt="">
+          </div>
+          <a class="getclass-slider-btn previous" onclick="setSlides(-1)">❮</a>
+          <a class="getclass-slider-btn next" onclick="setSlides(1)">❯</a>
+      </div>
         <br>
         <div class="container__get-class-tel">
           <p class="get-class__tel-text">
@@ -803,5 +813,6 @@
     <script src="js/script.js"></script>
     <script src="js/trainers.js"></script>
     <script src="js/pricing.js"></script>
+    <script src="js/get-class-slideshow.js"></script>
   </body>
 </html>
