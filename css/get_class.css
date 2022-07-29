@@ -28,9 +28,9 @@ section.get-class {
 }
 
 .get-class__schedule-text {
-    font-family: 'Kanit', sans-serif;
-    font-size: 19px;
+    font-family: 'Poppins', sans-serif;
     color: var(--text-color);
+    font-size: 17px;;
 }
 
 .get-class__schedule-yellow {
@@ -73,21 +73,21 @@ section.get-class {
 
 .getclass-imageSlides {
     display: none
-  }
-   
-  . getclass-imageSlides-img {
+}
+
+. getclass-imageSlides-img {
     margin: auto;
     display: block;
     width: 100%;
-  }
-  
-  .getclass-images-slideshow {
+}
+
+.getclass-images-slideshow {
     max-width: 1200px;
     position: relative;
     margin: auto;
-  }
-  
-  .getclass-slider-btn {
+}
+
+.getclass-slider-btn {
     cursor: pointer;
     position: absolute;
     top: 50%;
@@ -102,21 +102,20 @@ section.get-class {
     user-select: none;
     background-color: var(--text-ui-brand-color);
     border-radius: 50%;
-  }
-  
-  .previous {
+}
+
+.previous {
     left: 2%;
-  }
-  
-  .next {
+}
+.next {
     right: 2%;
-  }
-   
-  .previous:hover,
-  .next:hover {
+}
+
+.previous:hover,
+.next:hover {
     color: grey;
     background-color: var(--ui-title-color);
-  }
+}
 
 /* .container__get-class-pic {
     position: relative;

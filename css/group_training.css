@@ -45,19 +45,19 @@ ul.group-training__list li::before {
 
 .group-training__slogan {
     font-family: 'Kanit', sans-serif;
-    font-size: 19px;
+    font-size: 21px;
     color: var(--ui-title-color);
 }
 
 .group-training__text {
-    font-family: 'Kanit', sans-serif;
-    font-size: 17px;
+    font-family: 'Poppins', sans-serif;
     color: var(--text-color);
+    font-size: 17px;
 }
 
 .group-training__list {
     margin: 20px;
     font-family: 'Kanit', sans-serif;
-    font-size: 14px;
+    font-size: 17px;
     color: var(--ui-title-color);
 }
