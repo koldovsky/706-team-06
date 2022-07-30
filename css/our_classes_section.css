@@ -66,7 +66,6 @@
     object-fit: cover;
 }
 
-
 .main__picture-ball-vertical-line, 
 .main__picture-ropes-vertical-line, 
 .main__picture-barbell-vertical-line, 
@@ -94,7 +93,6 @@
     cursor: pointer;
     color: #dcdcdc;
 }
-
 
 .main__text-button {
     font-size: 17px;
@@ -176,6 +174,7 @@
         object-fit: cover;
         margin: auto;
 }
+
 }
 
     .main__button {
@@ -183,15 +182,11 @@
        margin: 70px auto;
     }
 
- 
-
     .main__picture-ball-text, .main__picture-ropes-text, 
     .main__picture-barbell-text, .main__picture-stationary-bikes-text {
     margin: auto;
     width: 230px;
  }
- 
-
 
 .main__container {
     max-width: 1200px;
