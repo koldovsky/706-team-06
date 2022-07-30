@@ -29,6 +29,11 @@ body{
     max-width: 1200px;
     background-color: var(--background-color);
 }
+
+body.lock {
+    overflow: hidden;
+}
+
 h1{
     color: var(--ui-title-color);
 }

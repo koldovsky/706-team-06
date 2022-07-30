@@ -1,677 +1,535 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Fitness Center</title>
-    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon" />
-    <link rel="stylesheet" href="css/index.css" />
-  </head>
 
-  <body>
-    <header class="header">
-      <div class="header__contacts">
-        <p class="header__contact-mail">
-          E-mail:
-          <a class="header__contacts-link" href="mailto:fitb@email.com"
-            >fitb@email.com</a
-          >
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Fitness Center</title>
+  <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon" />
+  <link rel="stylesheet" href="css/index.css" />
+</head>
+
+<body>
+  <header class="header">
+    <div class="header__contacts">
+      <p class="header__contact-mail">
+        E-mail:
+        <a class="header__contacts-link" href="mailto:fitb@email.com">fitb@email.com</a>
+      </p>
+      <p class="header__contact-phone">
+        Phone:
+        <a class="header__contacts-link" href="tel:+1(234)5678900">
+          +1 (234) 567 89 00</a>
+      </p>
+    </div>
+    <nav class="header__nav">
+      <div class="header__nav-logo">
+        <a href="#">
+          <img class="header_logo-img" src="img/logo.svg" alt="logo" />
+        </a>
+      </div>
+      <div class="header__burger-icon">
+        <img class="burger-img" src="img/burger-img.svg" alt="burger icon">
+      </div>
+      <div class="header__horizontal-bar">
+        <a class="navigation-link" href="#about">About Us</a>
+        <a class="navigation-link" href="#classes">Classes</a>
+        <a class="navigation-link" href="#personal">Personal Training</a>
+        <a class="navigation-link" href="#schedule">Schedule</a>
+        <a class="navigation-link" href="#locations">Locations</a>
+      </div>
+      <div class="header__social-links">
+        <a href="https://www.facebook.com/" target="_blank" class="header__social-icon"><img class="header__social-icon"
+            src="img/facebook.svg" alt="facebook" /></a>
+        <a href="https://www.instagram.com/" target="_blank" class="header__social-icon"><img
+            class="header__social-icon" src="img/instagram.svg" alt="instagram" /></a>
+        <a href="https://twitter.com/" target="_blank" class="header__social-icon"><img class="header__social-icon"
+            src="img/twitter.svg" alt="twitter" /></a>
+        <a href="https://www.youtube.com/" target="_blank" class="header__social-icon"><img class="header__social-icon"
+            src="img/youtube.svg" alt="youtube" /></a>
+      </div>
+    </nav>
+    <div class="header__introduction">
+      <h1>
+        GET FIT AND FEEL
+        <span class="header__introduction-word">GREAT!</span>
+      </h1>
+      <h2 class="header__introduction-h2">
+        Our professional instructors will help you stay active and healthy.
+      </h2>
+      <button type="button" class="header__text-button">
+        <img class="header_button-right-arrow" src="img/right-arrow.svg" alt="Right arrow" />
+        JOIN NOW
+      </button>
+    </div>
+  </header>
+  <main class="main">
+    <!--OUR CLASSES-->
+    <section class="main__our-classes">
+      <div class="main__container">
+        <div class="main__header-our-classes">
+          <h2 class="main__title">OUR CLASSES</h2>
+          <p class="main__subtitle">
+            Whatever your fitness goals are, our dedicated fitness instructors
+            will help you achieve them.
+          </p>
+        </div>
+        <div class="main__accordion">
+          <article class="main__img-ball">
+            <img class="main__picture-ball" src="img/a-women-with-ball.png" alt="women training with the ball" />
+            <h2 class="main__picture-ball-subtitle">MAXFIT</h2>
+            <hr class="main__picture-ball-horisontal-line" />
+            <hr class="main__picture-ball-vertical-line" />
+            <p class="main__picture-ball-text">
+              MaxFit is an extensive training class that will help your body
+              work at maximum load from the start to the end of your workout
+              to gain the best results faster.
+            </p>
+          </article>
+          <article class="main__img-ropes">
+            <img class="main__picture-ropes" src="img/a-woman-trains-with-ropes.png" alt="women training with ropes" />
+            <h2 class="main__picture-ropes-subtitle">CAMPFIT</h2>
+            <div class="main__plus-minus">
+              <hr class="main__picture-ropes-horisontal-line" />
+              <hr class="main__picture-ropes-vertical-line" />
+            </div>
+            <p class="main__picture-ropes-text">
+              Have fun while mixing your interval training, body weight
+              exercises, and strength training!
+            </p>
+          </article>
+          <article class="main__img-barbell">
+            <img class="main__picture-barbell" src="img/a-man-with-a-barbell.png" alt="men barbell training" />
+            <h2 class="main__picture-barbell-subtitle">POWERFIT</h2>
+            <hr class="main__picture-barbell-horisontal-line" />
+            <hr class="main__picture-barbell-vertical-line" />
+            <p class="main__picture-barbell-text">
+              PowerFit is a high strength training class which uses
+              barbells/cardio to get maximum results.
+            </p>
+          </article>
+          <article class="main__img-stationary-bikes">
+            <img class="main__picture-stationary-bikes" src="img/a-woman-is-training-on-the-exercise-bike.png"
+              alt="women training with stationary-bikes" />
+            <h2 class="main__picture-stationary-bikes-subtitle">SPINFIT</h2>
+            <hr class="main__picture-stationary-bikes-horisontal-line" />
+            <hr class="main__picture-stationary-bikes-vertical-line" />
+            <p class="main__picture-stationary-bikes-text">
+              The members of SpinFit use the stationary bike which imitates
+              the real world bicycle obstacle course with the capacity to burn
+              more than 500 calories per class
+            </p>
+          </article>
+        </div>
+        <div class="main__button">
+          <button type="button" class="main__text-button">
+            <img class="button__right-arrow" src="img/right-arrow.svg" alt="Right arrow" />
+            ALL CLASESS
+          </button>
+        </div>
+      </div>
+    </section>
+    <!-- Personal training (Protsailo Mariia)-->
+
+    <!-- Personal training (Protsailo Mariia)-->
+    <section class="personal__training">
+      <div class="main__img">
+        <img src="img/get-fit.png" alt="Wonem coach trains the man" />
+      </div>
+      <div class="main__header">
+        <h2 class="main__title-2">PERSONAL<br />TRAINING</h2>
+        <h3 class="main__subtitle__personal">
+          Maximum results and flexible training schedule.
+        </h3>
+        <p class="main__text-block">
+          Group training is not for everyone. If you want to train 1-on-1,
+          FitB offers you personal training to work on your individual skills
+          and achieve fitness goals. Our personal trainers are dedicated to
+          providing you with the best fitness experience possible.
         </p>
-        <p class="header__contact-phone">
-          Phone:
-          <a class="header__contacts-link" href="tel:+1(234)5678900">
-            +1 (234) 567 89 00</a
-          >
+
+        <div class="main__button-2">
+          <a href="#" class="main__button-url"></a>
+          <h3 class="main__text-button-2">EXPLORE TRAINING</h3>
+        </div>
+      </div>
+    </section>
+    <section class="main__benefits-section">
+      <div class="main__benefits">
+        <img src="img/bicycle.svg" alt="Bicycle" class="main__picture-bicycle benefits-icon" />
+        <h2 class="main__picture-title-benefits">FULLY EQUIPPED GYM</h2>
+        <p class="main__text-block-benefits">
+          Our spacious gym is suitable for group lessons and has all the
+          necessary equipment.
         </p>
       </div>
-      <nav class="header__nav">
-        <div class="header__nav-logo">
-          <a href="#">
-            <img class="header_logo-img" src="img/logo.svg" alt="logo" />
-          </a>
-        </div>
-        <div class="header__horizontal-bar">
-          <a href="#about">About Us</a>
-          <a href="#classes">Classes</a>
-          <a href="#personal">Personal Training</a>
-          <a href="#schedule">Schedule</a>
-          <a href="#locations">Locations</a>
-        </div>
-        <div class="header__social-links">
-          <a href="https://www.facebook.com/"
-            target="_blank"
-            class="header__social-icon"
-            ><img
-              class="header__social-icon"
-              src="img/facebook.svg"
-              alt="facebook"
-          /></a>
-          <a
-            href="https://www.instagram.com/"
-            target="_blank"
-            class="header__social-icon"
-            ><img
-              class="header__social-icon"
-              src="img/instagram.svg"
-              alt="instagram"
-          /></a>
-          <a
-            href="https://twitter.com/"
-            target="_blank"
-            class="header__social-icon"
-            ><img
-              class="header__social-icon"
-              src="img/twitter.svg"
-              alt="twitter"
-          /></a>
-          <a
-            href="https://www.youtube.com/"
-            target="_blank"
-            class="header__social-icon"
-            ><img
-              class="header__social-icon"
-              src="img/youtube.svg"
-              alt="youtube"
-          /></a>
-        </div>
-      </nav>
-      <div class="header__introduction">
-        <h1>
-          GET FIT AND FEEL
-          <span class="header__introduction-word">GREAT!</span>
-        </h1>
-        <h2 class="header__introduction-h2">
-          Our professional instructors will help you stay active and healthy.
-        </h2>
-        <button type="button" class="header__text-button">
-          <img
-            class="header_button-right-arrow"
-            src="img/right-arrow.svg"
-            alt="Right arrow"
-          />
-          JOIN NOW
-        </button>
+      <div class="main__benefits">
+        <img src="img/diet-food.svg" alt="Diet Food" class="main__picture-dietfood benefits-icon" />
+        <h2 class="main__picture-title-benefits">SELECT YOUR ACTIVITY</h2>
+        <p class="main__text-block-benefits">
+          Choose the activities which suit you and don't pay for the
+          unnecessary ones.
+        </p>
       </div>
-    </header>
-    <main class="main">
-      <!--OUR CLASSES-->
-      <section class="main__our-classes">
-        <div class="main__container">
-          <div class="main__header-our-classes">
-            <h2 class="main__title">OUR CLASSES</h2>
-            <p class="main__subtitle">
-              Whatever your fitness goals are, our dedicated fitness instructors
-              will help you achieve them.
-            </p>
-          </div>
-          <div class="main__accordion">
-            <article class="main__img-ball">
-              <img
-                class="main__picture-ball"
-                src="img/a-women-with-ball.png"
-                alt="women training with the ball"
-              />
-              <h2 class="main__picture-ball-subtitle">MAXFIT</h2>
-              <hr class="main__picture-ball-horisontal-line" />
-              <hr class="main__picture-ball-vertical-line" />
-              <p class="main__picture-ball-text">
-                MaxFit is an extensive training class that will help your body
-                work at maximum load from the start to the end of your workout
-                to gain the best results faster.
-              </p>
-            </article>
-            <article class="main__img-ropes">
-              <img
-                class="main__picture-ropes"
-                src="img/a-woman-trains-with-ropes.png"
-                alt="women training with ropes"
-              />
-              <h2 class="main__picture-ropes-subtitle">CAMPFIT</h2>
-                 <div class="main__plus-minus"> 
-                     <hr class="main__picture-ropes-horisontal-line" />
-                     <hr class="main__picture-ropes-vertical-line" />
-                 </div>
-              <p class="main__picture-ropes-text">
-                Have fun while mixing your interval training, body weight
-                exercises, and strength training!
-              </p>
-            </article>
-            <article class="main__img-barbell">
-              <img
-                class="main__picture-barbell"
-                src="img/a-man-with-a-barbell.png"
-                alt="men barbell training"
-              />
-              <h2 class="main__picture-barbell-subtitle">POWERFIT</h2>
-              <hr class="main__picture-barbell-horisontal-line" />
-              <hr class="main__picture-barbell-vertical-line" />
-              <p class="main__picture-barbell-text">
-                PowerFit is a high strength training class which uses
-                barbells/cardio to get maximum results.
-              </p>
-            </article>
-            <article class="main__img-stationary-bikes">
-              <img
-                class="main__picture-stationary-bikes"
-                src="img/a-woman-is-training-on-the-exercise-bike.png"
-                alt="women training with stationary-bikes"
-              />
-              <h2 class="main__picture-stationary-bikes-subtitle">SPINFIT</h2>
-              <hr class="main__picture-stationary-bikes-horisontal-line" />
-              <hr class="main__picture-stationary-bikes-vertical-line" />
-              <p class="main__picture-stationary-bikes-text">
-                The members of SpinFit use the stationary bike which imitates
-                the real world bicycle obstacle course with the capacity to burn
-                more than 500 calories per class
-              </p>
-            </article>
-          </div>
-          <div class="main__button">
-            <button type="button" class="main__text-button">
-              <img
-                class="button__right-arrow"
-                src="img/right-arrow.svg"
-                alt="Right arrow"
-              />
-              ALL CLASESS
-            </button>
-          </div>
-        </div>
-      </section>
-      <!-- Personal training (Protsailo Mariia)-->
+      <div class="main__benefits">
+        <img src="img/sportwoman.svg" alt="Women training" class="main__picture-sportwoman benefits-icon" />
+        <h2 class="main__picture-title-benefits">OPEN FOR ANYONE</h2>
+        <p class="main__text-block-benefits">
+          Whatever your fitness level is, you can attend our fitness classes
+          at any time.
+        </p>
+      </div>
+      <div class="main__benefits">
+        <img src="img/checklist.svg" alt="checklist" class="main__picture-checklist benefits-icon" />
+        <h2 class="main__picture-title-benefits">FLEXIBLE PRICES</h2>
+        <p class="main__text-block-benefits">
+          You can select a training plan, instructor, and schedule suitable
+          for you.
+        </p>
+      </div>
+    </section>
 
-      <!-- Personal training (Protsailo Mariia)-->
-      <section class="personal__training">
-        <div class="main__img">
-          <img src="img/get-fit.png" alt="Wonem coach trains the man" />
-        </div>
-        <div class="main__header">
-          <h2 class="main__title-2">PERSONAL<br />TRAINING</h2>
-          <h3 class="main__subtitle__personal">
-            Maximum results and flexible training schedule.
-          </h3>
-          <p class="main__text-block">
-            Group training is not for everyone. If you want to train 1-on-1,
-            FitB offers you personal training to work on your individual skills
-            and achieve fitness goals. Our personal trainers are dedicated to
-            providing you with the best fitness experience possible.
-          </p>
-
-          <div class="main__button-2">
-            <a href="#" class="main__button-url"></a>
-            <h3 class="main__text-button-2">EXPLORE TRAINING</h3>
-          </div>
-        </div>
-      </section>
-      <section class="main__benefits-section">
-        <div class="main__benefits">
-          <img
-            src="img/bicycle.svg"
-            alt="Bicycle"
-            class="main__picture-bicycle benefits-icon"
-          />
-          <h2 class="main__picture-title-benefits">FULLY EQUIPPED GYM</h2>
-          <p class="main__text-block-benefits">
-            Our spacious gym is suitable for group lessons and has all the
-            necessary equipment.
-          </p>
-        </div>
-        <div class="main__benefits">
-          <img
-            src="img/diet-food.svg"
-            alt="Diet Food"
-            class="main__picture-dietfood benefits-icon"
-          />
-          <h2 class="main__picture-title-benefits">SELECT YOUR ACTIVITY</h2>
-          <p class="main__text-block-benefits">
-            Choose the activities which suit you and don't pay for the
-            unnecessary ones.
-          </p>
-        </div>
-        <div class="main__benefits">
-          <img
-            src="img/sportwoman.svg"
-            alt="Women training"
-            class="main__picture-sportwoman benefits-icon"
-          />
-          <h2 class="main__picture-title-benefits">OPEN FOR ANYONE</h2>
-          <p class="main__text-block-benefits">
-            Whatever your fitness level is, you can attend our fitness classes
-            at any time.
-          </p>
-        </div>
-        <div class="main__benefits">
-          <img
-            src="img/checklist.svg"
-            alt="checklist"
-            class="main__picture-checklist benefits-icon"
-          />
-          <h2 class="main__picture-title-benefits">FLEXIBLE PRICES</h2>
-          <p class="main__text-block-benefits">
-            You can select a training plan, instructor, and schedule suitable
-            for you.
-          </p>
-        </div>
-      </section>
-
-      <!-- Group Training (Oleg Panfilenko) -->
-      <section class="group-training">
-        <div class="container__group-training">
-          <div class="group-training__content">
-            <h2 class="group-training__title">GROUP<br />TRAINING</h2>
-            <br />
-            <h3 class="group-training__slogan">
-              Work in groups to become a better you.
-            </h3>
-            <br />
-            <p class="group-training__text">
-              If you prefer to train in groups, we have something to offer you.
-              Our experienced instructors train small groups (10-12 people) and
-              can pay attention to each person. We have different group classes
-              that will help you keep fit:
-            </p>
-            <ul class="group-training__list">
-              <li>Pilates;</li>
-              <li>Fitball aerobics;</li>
-              <li>Yoga, etc.</li>
-            </ul>
-            <p class="group-training__text">
-              At the same time, you meet wonderful people and train with great
-              interest. You won't want to miss our workouts!
-            </p>
-          </div>
-          <div class="group-training__pic">
-            <img
-              src="img/group-of-three-training.png"
-              alt="Group Training of Three"
-            />
-          </div>
+    <!-- Group Training (Oleg Panfilenko) -->
+    <section class="group-training">
+      <div class="container__group-training">
+        <div class="group-training__content">
+          <h2 class="group-training__title">GROUP<br />TRAINING</h2>
           <br />
+          <h3 class="group-training__slogan">
+            Work in groups to become a better you.
+          </h3>
+          <br />
+          <p class="group-training__text">
+            If you prefer to train in groups, we have something to offer you.
+            Our experienced instructors train small groups (10-12 people) and
+            can pay attention to each person. We have different group classes
+            that will help you keep fit:
+          </p>
+          <ul class="group-training__list">
+            <li>Pilates;</li>
+            <li>Fitball aerobics;</li>
+            <li>Yoga, etc.</li>
+          </ul>
+          <p class="group-training__text">
+            At the same time, you meet wonderful people and train with great
+            interest. You won't want to miss our workouts!
+          </p>
         </div>
-      </section>
-
-      <!-- Get Your First Class For Free! (Oleg Panfilenko) -->
-      <section class="get-class">
-        <div class="container__get-class">
-          <div class="get-class__header">
-            <h2 class="get-class-header__title">
-              GET YOUR FIRST<br />CLASS FOR FREE!
-            </h2>
-          </div>
-          <div class="get-class__schedule">
-            <p class="get-class__schedule-text">
-              <span class="get-class__schedule-yellow">*</span> Schedule your
-              visit to FitB and attend any group training for free on this day.
-            </p>
-            <br />
-            <p class="get-class__email-text">
-              Get additional info at
-              <a class="get-class__email-value" href="fitb@email.com"
-                >fitb@email.com</a
-              >.
-            </p>
-            <br />
-          </div>
+        <div class="group-training__pic">
+          <img src="img/group-of-three-training.png" alt="Group Training of Three" />
         </div>
         <br />
-        <div class="getclass-images-slideshow">
-          <div class="getclass-imageSlides fade">
-              <img class="getclass-imageSlides-img" src="img/group-of-two-training.png" alt="">
-          </div>
-          <div class="getclass-imageSlides fade">
-              <img class="getclass-imageSlides-img" src="img/group-of-three-yoga.png" alt="">
-          </div>
-          <div class="getclass-imageSlides fade">
-              <img class="getclass-imageSlides-img" src="img/group-of-three-aerobics.png" alt="">
-          </div>
-          <div class="getclass-imageSlides fade">
-              <img class="getclass-imageSlides-img" src="img/group-of-two-yoga.png" alt="">
-          </div>
-          <a class="getclass-slider-btn previous" onclick="setSlides(-1)">❮</a>
-          <a class="getclass-slider-btn next" onclick="setSlides(1)">❯</a>
       </div>
-        <br>
-        <div class="container__get-class-tel">
-          <p class="get-class__tel-text">
-            Call us to schedule your visit</p>
-          <p class="get-class__tel-value">
-            <a class="get-class__tel-value" href="tel:+1(234)5678901">+1 (234) 567 89 01</a>
+    </section>
+
+    <!-- Get Your First Class For Free! (Oleg Panfilenko) -->
+    <section class="get-class">
+      <div class="container__get-class">
+        <div class="get-class__header">
+          <h2 class="get-class-header__title">
+            GET YOUR FIRST<br />CLASS FOR FREE!
+          </h2>
+        </div>
+        <div class="get-class__schedule">
+          <p class="get-class__schedule-text">
+            <span class="get-class__schedule-yellow">*</span> Schedule your
+            visit to FitB and attend any group training for free on this day.
+          </p>
+          <br />
+          <p class="get-class__email-text">
+            Get additional info at
+            <a class="get-class__email-value" href="fitb@email.com">fitb@email.com</a>.
+          </p>
+          <br />
+        </div>
+      </div>
+      <br />
+      <div class="getclass-images-slideshow">
+        <div class="getclass-imageSlides fade">
+          <img class="getclass-imageSlides-img" src="img/group-of-two-training.png" alt="">
+        </div>
+        <div class="getclass-imageSlides fade">
+          <img class="getclass-imageSlides-img" src="img/group-of-three-yoga.png" alt="">
+        </div>
+        <div class="getclass-imageSlides fade">
+          <img class="getclass-imageSlides-img" src="img/group-of-three-aerobics.png" alt="">
+        </div>
+        <div class="getclass-imageSlides fade">
+          <img class="getclass-imageSlides-img" src="img/group-of-two-yoga.png" alt="">
+        </div>
+        <a class="getclass-slider-btn previous" onclick="setSlides(-1)">❮</a>
+        <a class="getclass-slider-btn next" onclick="setSlides(1)">❯</a>
+      </div>
+      <br>
+      <div class="container__get-class-tel">
+        <p class="get-class__tel-text">
+          Call us to schedule your visit</p>
+        <p class="get-class__tel-value">
+          <a class="get-class__tel-value" href="tel:+1(234)5678901">+1 (234) 567 89 01</a>
+        </p>
+      </div>
+    </section>
+    <!-- Our Trainers section -->
+    <section class="our-trainers__section">
+      <div class="our-trainers__container">
+        <div class="our-trainers__header-container">
+          <h2 class="our-trainers__title">OUR TRAINERS</h2>
+          <p class="our-trainers__description">
+            Our team of highly trained and certified fitness instructors will
+            help you set your goals.
           </p>
         </div>
-      </section>
-      <!-- Our Trainers section -->
-      <section class="our-trainers__section">
-        <div class="our-trainers__container">
-          <div class="our-trainers__header-container">
-            <h2 class="our-trainers__title">OUR TRAINERS</h2>
-            <p class="our-trainers__description">
-              Our team of highly trained and certified fitness instructors will
-              help you set your goals.
-            </p>
-          </div>
-          <div class="our-trainers__container-list"></div>
-        </div>
-      </section>
-      <!--HOW TO START Andriana Oprysko-->
-      <section class="start__class">
-        <div class="start__div">
-          <div class="start__photo">
-            <img
-              src="img/girls-training-in-gym.png"
-              alt="Girls training in the gym."
-            />
-          </div>
-          <div class="start__content">
-            <h2 class="start__title">HOW TO START</h2>
-            <h4 class="start__subtitle">
-              Ready to start a new and healthy chapter of your life?
-            </h4>
-            <h3 class="start__paragraph-title">GET A CONSULTATION</h3>
-            <br />
-            <p class="start__paragraph-text">
-              <a class="start__paragraph-link" href="#">Fill out the form</a>
-              and one of our representatives will get in touch with you. Get
-              answers to all the questions you may have and choose the training
-              direction that is right for you.
-            </p>
-            <br />
-            <h3 class="start__paragraph-title">SIGN UP FOR A FREE CLASS</h3>
-            <br />
-            <p class="start__paragraph-text">
-              You have a great chance to experience a free trial of the class of
-              your choice and determine if it's right for you.
-            </p>
-            <br />
-          </div>
-        </div>
-      </section>
-      <!--HOW TO START Andriana Oprysko-->
-      <!-- Maryana Seniv. Pricing Plans - START -->
-      <section class="plans">
-        <h2 class="plans__title">PRICING PLANS</h2>
-        <p class="plans__choose">
-          Choose a pricing plan which suits your fitness goals.
-        </p>
-        <div class="plans__types">
-          <article class="plan__type">
-            <h3 class="plan__title">UNLIMITED</h3>
-            <p class="plan__price">
-              $249<span class="plan__price-detail">/MONTH</span>
-            </p>
-            <p class="plan__intensity">Unlimited classes</p>
-            <ul class="plan__details">
-              <li class="plan__detail">
-                <img
-                  src="img/circle-check.svg"
-                  alt="Circle check"
-                  class="circle__check"
-                />
-                Yoga and pool
-              </li>
-              <li class="plan__detail">
-                <img
-                  src="img/circle-check.svg"
-                  alt="Circle check"
-                  class="circle__check"
-                />
-                Any fitness programs
-              </li>
-              <li class="plan__detail">
-                <img
-                  src="img/circle-check.svg"
-                  alt="Circle check"
-                  class="circle__check"
-                />
-                -20% on additional services
-              </li>
-              <li class="plan__detail">
-                <img
-                  src="img/circle-check.svg"
-                  alt="Circle check"
-                  class="circle__check"
-                />
-                5 personal training sessions
-              </li>
-            </ul>
-            <button type="button" class="select__plan">
-              <img
-                src="img/right-arrow.svg"
-                alt="Right arrow"
-                class="right__arrow"
-              />
-              SELECT PLAN
-            </button>
-          </article>
-          <article class="plan__type">
-            <h3 class="plan__title">10 CLASSES</h3>
-            <p class="plan__price">$160</p>
-            <p class="plan__intensity">10 group classes</p>
-            <ul class="plan__details">
-              <li class="plan__detail">
-                <img
-                  src="img/circle-check.svg"
-                  alt="Circle check"
-                  class="circle__check"
-                />
-                Any fitness programs
-              </li>
-              <li class="plan__detail">
-                <img
-                  src="img/circle-check.svg"
-                  alt="Circle check"
-                  class="circle__check"
-                />
-                -15% on additional services
-              </li>
-              <li class="plan__detail">
-                <img
-                  src="img/circle-check.svg"
-                  alt="Circle check"
-                  class="circle__check"
-                />
-                $15 per each extra training
-              </li>
-              <li class="plan__detail">
-                <img
-                  src="img/circle-check.svg"
-                  alt="Circle check"
-                  class="circle__check"
-                />
-                No individual sessions
-              </li>
-            </ul>
-            <button type="button" class="select__plan">
-              <img
-                src="img/right-arrow.svg"
-                alt="Right arrow"
-                class="right__arrow"
-              />
-              SELECT PLAN
-            </button>
-          </article>
-          <article class="plan__type">
-            <h3 class="plan__title">OPEN GYM</h3>
-            <p class="plan__price">
-              $12<span class="plan__price-detail">/TRAINING</span>
-            </p>
-            <p class="plan__intensity">2-hour training</p>
-            <ul class="plan__details">
-              <li class="plan__detail">
-                <img
-                  src="img/circle-check.svg"
-                  alt="Circle check"
-                  class="circle__check"
-                />
-                Full access to the gym
-              </li>
-              <li class="plan__detail">
-                <img
-                  src="img/circle-check.svg"
-                  alt="Circle check"
-                  class="circle__check"
-                />
-                Open from 8am to 9-10pm
-              </li>
-              <li class="plan__detail">
-                <img
-                  src="img/circle-check.svg"
-                  alt="Circle check"
-                  class="circle__check"
-                />
-                50+ gym machines
-              </li>
-              <li class="plan__detail">
-                <img
-                  src="img/circle-check.svg"
-                  alt="Circle check"
-                  class="circle__check"
-                />
-                -10% on additional services
-              </li>
-            </ul>
-            <button type="button" class="select__plan">
-              <img
-                src="img/right-arrow.svg"
-                alt="Right arrow"
-                class="right__arrow"
-              />
-              SELECT PLAN
-            </button>
-          </article>
-        </div>
-        <div class="discount__timer">
-          <p class="discount__offer">Get 25% OFF</p>
-          <p class="days__discount-left"></p>
-          <p class="hours__discount-left"></p>
-          <p class="minutes__discount-left"></p>
-          <p class="seconds__discount-left"></p>
-          <h2 class="discount__left"></h2>
-        </div>
-      </section>
-      <!-- Maryana Seniv. Pricing Plans - END -->
-  <!--Feedback Section-->
-  <div class="feedbacks__section">
-    <div class="carousel-feedback">
-      <div class="carousel-wrapper">
+        <div class="our-trainers__container-list"></div>
       </div>
+    </section>
+    <!--HOW TO START Andriana Oprysko-->
+    <section class="start__class">
+      <div class="start__div">
+        <div class="start__photo">
+          <img src="img/girls-training-in-gym.png" alt="Girls training in the gym." />
+        </div>
+        <div class="start__content">
+          <h2 class="start__title">HOW TO START</h2>
+          <h4 class="start__subtitle">
+            Ready to start a new and healthy chapter of your life?
+          </h4>
+          <h3 class="start__paragraph-title">GET A CONSULTATION</h3>
+          <br />
+          <p class="start__paragraph-text">
+            <a class="start__paragraph-link" href="#">Fill out the form</a>
+            and one of our representatives will get in touch with you. Get
+            answers to all the questions you may have and choose the training
+            direction that is right for you.
+          </p>
+          <br />
+          <h3 class="start__paragraph-title">SIGN UP FOR A FREE CLASS</h3>
+          <br />
+          <p class="start__paragraph-text">
+            You have a great chance to experience a free trial of the class of
+            your choice and determine if it's right for you.
+          </p>
+          <br />
+        </div>
+      </div>
+    </section>
+    <!--HOW TO START Andriana Oprysko-->
+    <!-- Maryana Seniv. Pricing Plans - START -->
+    <section class="plans">
+      <h2 class="plans__title">PRICING PLANS</h2>
+      <p class="plans__choose">
+        Choose a pricing plan which suits your fitness goals.
+      </p>
+      <div class="plans__types">
+        <article class="plan__type">
+          <h3 class="plan__title">UNLIMITED</h3>
+          <p class="plan__price">
+            $249<span class="plan__price-detail">/MONTH</span>
+          </p>
+          <p class="plan__intensity">Unlimited classes</p>
+          <ul class="plan__details">
+            <li class="plan__detail">
+              <img src="img/circle-check.svg" alt="Circle check" class="circle__check" />
+              Yoga and pool
+            </li>
+            <li class="plan__detail">
+              <img src="img/circle-check.svg" alt="Circle check" class="circle__check" />
+              Any fitness programs
+            </li>
+            <li class="plan__detail">
+              <img src="img/circle-check.svg" alt="Circle check" class="circle__check" />
+              -20% on additional services
+            </li>
+            <li class="plan__detail">
+              <img src="img/circle-check.svg" alt="Circle check" class="circle__check" />
+              5 personal training sessions
+            </li>
+          </ul>
+          <button type="button" class="select__plan">
+            <img src="img/right-arrow.svg" alt="Right arrow" class="right__arrow" />
+            SELECT PLAN
+          </button>
+        </article>
+        <article class="plan__type">
+          <h3 class="plan__title">10 CLASSES</h3>
+          <p class="plan__price">$160</p>
+          <p class="plan__intensity">10 group classes</p>
+          <ul class="plan__details">
+            <li class="plan__detail">
+              <img src="img/circle-check.svg" alt="Circle check" class="circle__check" />
+              Any fitness programs
+            </li>
+            <li class="plan__detail">
+              <img src="img/circle-check.svg" alt="Circle check" class="circle__check" />
+              -15% on additional services
+            </li>
+            <li class="plan__detail">
+              <img src="img/circle-check.svg" alt="Circle check" class="circle__check" />
+              $15 per each extra training
+            </li>
+            <li class="plan__detail">
+              <img src="img/circle-check.svg" alt="Circle check" class="circle__check" />
+              No individual sessions
+            </li>
+          </ul>
+          <button type="button" class="select__plan">
+            <img src="img/right-arrow.svg" alt="Right arrow" class="right__arrow" />
+            SELECT PLAN
+          </button>
+        </article>
+        <article class="plan__type">
+          <h3 class="plan__title">OPEN GYM</h3>
+          <p class="plan__price">
+            $12<span class="plan__price-detail">/TRAINING</span>
+          </p>
+          <p class="plan__intensity">2-hour training</p>
+          <ul class="plan__details">
+            <li class="plan__detail">
+              <img src="img/circle-check.svg" alt="Circle check" class="circle__check" />
+              Full access to the gym
+            </li>
+            <li class="plan__detail">
+              <img src="img/circle-check.svg" alt="Circle check" class="circle__check" />
+              Open from 8am to 9-10pm
+            </li>
+            <li class="plan__detail">
+              <img src="img/circle-check.svg" alt="Circle check" class="circle__check" />
+              50+ gym machines
+            </li>
+            <li class="plan__detail">
+              <img src="img/circle-check.svg" alt="Circle check" class="circle__check" />
+              -10% on additional services
+            </li>
+          </ul>
+          <button type="button" class="select__plan">
+            <img src="img/right-arrow.svg" alt="Right arrow" class="right__arrow" />
+            SELECT PLAN
+          </button>
+        </article>
+      </div>
+      <div class="discount__timer">
+        <p class="discount__offer">Get 25% OFF</p>
+        <p class="days__discount-left"></p>
+        <p class="hours__discount-left"></p>
+        <p class="minutes__discount-left"></p>
+        <p class="seconds__discount-left"></p>
+        <h2 class="discount__left"></h2>
+      </div>
+    </section>
+    <!-- Maryana Seniv. Pricing Plans - END -->
+    <!--Feedback Section-->
+    <div class="feedbacks__section">
+      <div class="carousel-feedback">
+        <div class="carousel-wrapper">
+        </div>
         <button class="feedback__btn-right">
           <span class="feedback__btn_span">
-            <img class="fdb_arrow" src="img/feedback-right-arrow.svg" alt="scroll arrow"/>
-            </span>
-          </button>
-          <button class="feedback__btn-left">
-            <span class="feedback__btn_span">
-              <img class="fdb_arrow" src="img/feedback-left-arrow.svg" alt="scroll arrow"/>
-            </span>
-          </button>
-        </div>
+            <img class="fdb_arrow" src="img/feedback-right-arrow.svg" alt="scroll arrow" />
+          </span>
+        </button>
+        <button class="feedback__btn-left">
+          <span class="feedback__btn_span">
+            <img class="fdb_arrow" src="img/feedback-left-arrow.svg" alt="scroll arrow" />
+          </span>
+        </button>
       </div>
     </div>
-      <!--Latest Articles-->
-      <section class="latest__articles_section">
-        <h2 class="latest__articles__main_title">Latest Articles</h2>
-        <div class="latest__articles">
-          <article class="first__acticle__el">
-            <figure>
-              <img
-                class="latest__articles__image"
-                src="img/girl_training_with_the_weight.png"
-                alt="Dark hair young woman is training with the weight"
-              />
-              <figcaption class="latest__article__caption">
-                Posted by Rolland Frank | September 22, 2019
-              </figcaption>
-            </figure>
-            <h3 class="latest__articles__title dif__color">
-              Sweat and happy thoughts can't cure depression
-            </h3>
-            <p class="latest__articles__text">
-              We understand that nowadays people live in a rush. Everyday
-              routine is full of duties but you should stop and think about your
-              health. Whether your life…
-            </p>
-            <a href="#" class="latest__article__link">Read more</a>
-          </article>
-          <article class="second__acticle__el">
-            <figure>
-              <img
-                class="latest__articles__image"
-                src="img/exercise_machines_in_front_ot_the_window.png"
-                alt="Jym view with training machines in front of the window"
-              />
-              <figcaption class="latest__article__caption">
-                Posted by Rolland Frank | June 30, 2020
-              </figcaption>
-            </figure>
-            <h3 class="latest__articles__title dif__color">
-              Stop trying and start training
-            </h3>
-            <p class="latest__articles__text">
-              Our team of coaches mainly train muscles. We are lucky to train
-              nearly a hundred people who are serious about their body shapes
-              and overall health.
-            </p>
-            <a href="#" class="latest__article__link">Read more</a>
-          </article>
-          <article class="third__acticle__el">
-            <figure>
-              <img
-                class="latest__articles__image"
-                src="img/girls_training_with_trx.png"
-                alt="Two young woman training with TRX"
-              />
-              <figcaption class="latest__article__caption">
-                Posted by Rolland Frank | May 02, 2020
-              </figcaption>
-            </figure>
-            <h3 class="latest__articles__title dif__color">
-              Reasons to change your lifestyle
-            </h3>
-            <p class="latest__articles__text">
-              Everybody knows how it feels like to wake up in the morning, drink
-              your favorite coffee or tea, and think about your future plans for
-              the day.
-            </p>
-            <a href="#" class="latest__article__link">Read more</a>
-          </article>
+    </div>
+    <!--Latest Articles-->
+    <section class="latest__articles_section">
+      <h2 class="latest__articles__main_title">Latest Articles</h2>
+      <div class="latest__articles">
+        <article class="first__acticle__el">
+          <figure>
+            <img class="latest__articles__image" src="img/girl_training_with_the_weight.png"
+              alt="Dark hair young woman is training with the weight" />
+            <figcaption class="latest__article__caption">
+              Posted by Rolland Frank | September 22, 2019
+            </figcaption>
+          </figure>
+          <h3 class="latest__articles__title dif__color">
+            Sweat and happy thoughts can't cure depression
+          </h3>
+          <p class="latest__articles__text">
+            We understand that nowadays people live in a rush. Everyday
+            routine is full of duties but you should stop and think about your
+            health. Whether your life…
+          </p>
+          <a href="#" class="latest__article__link">Read more</a>
+        </article>
+        <article class="second__acticle__el">
+          <figure>
+            <img class="latest__articles__image" src="img/exercise_machines_in_front_ot_the_window.png"
+              alt="Jym view with training machines in front of the window" />
+            <figcaption class="latest__article__caption">
+              Posted by Rolland Frank | June 30, 2020
+            </figcaption>
+          </figure>
+          <h3 class="latest__articles__title dif__color">
+            Stop trying and start training
+          </h3>
+          <p class="latest__articles__text">
+            Our team of coaches mainly train muscles. We are lucky to train
+            nearly a hundred people who are serious about their body shapes
+            and overall health.
+          </p>
+          <a href="#" class="latest__article__link">Read more</a>
+        </article>
+        <article class="third__acticle__el">
+          <figure>
+            <img class="latest__articles__image" src="img/girls_training_with_trx.png"
+              alt="Two young woman training with TRX" />
+            <figcaption class="latest__article__caption">
+              Posted by Rolland Frank | May 02, 2020
+            </figcaption>
+          </figure>
+          <h3 class="latest__articles__title dif__color">
+            Reasons to change your lifestyle
+          </h3>
+          <p class="latest__articles__text">
+            Everybody knows how it feels like to wake up in the morning, drink
+            your favorite coffee or tea, and think about your future plans for
+            the day.
+          </p>
+          <a href="#" class="latest__article__link">Read more</a>
+        </article>
+      </div>
+    </section>
+    <!--LET'S GET STARTED-->
+    <section class="main__start">
+      <div class="main__start__paragraph">
+        <div class="main__start__paragraph__title">
+          <p>LET'S GET STARTED</p>
         </div>
-      </section>
-      <!--LET'S GET STARTED-->
-      <section class="main__start">
-        <div class="main__start__paragraph">
-          <div class="main__start__paragraph__title">
-            <p>LET'S GET STARTED</p>
-          </div>
-          <div class="main__start__paragraph__subtitle">
-           <p>Fill out the form or contact us directly.</p> 
-          </div>
-          <div class="main__start__paragraph__text">
+        <div class="main__start__paragraph__subtitle">
+          <p>Fill out the form or contact us directly.</p>
+        </div>
+        <div class="main__start__paragraph__text">
           <p>In order to offer you the best pricing plan, our managers will
             contact you as soon as possible and ask some questions about your
             health, fitness goals, expectations, and your favorite sports
             activities.</p>
+        </div>
+        <div class="main__start__paragraph__consultacion">
+          <input class="start__paragraph__button" type="submit" />
+        </div>
+      </div>
+      <div class="main__start__nav">
+        <div class="main__start__nav__adress">
+          <div class="main__start__nav__adress__title">
+            <span>Address</span>
           </div>
-          <div class="main__start__paragraph__consultacion">
-            <input class="start__paragraph__button" type="submit" />
+          <div class="main__start__nav__adress__street">
+            <p>1 Grand St, Brooklyn, NY 11211</p>
           </div>
         </div>
-        <div class="main__start__nav">
-          <div class="main__start__nav__adress">
-            <div class="main__start__nav__adress__title">
-              <span>Address</span>
-            </div>
-            <div class="main__start__nav__adress__street">
-              <p>1 Grand St, Brooklyn, NY 11211</p>
-            </div>
+        <div class="main__start__nav__phone">
+          <div class="main__start__nav__phone__title">
+            <span>Phone</span>
           </div>
-          <div class="main__start__nav__phone">
-            <div class="main__start__nav__phone__title">
-              <span>Phone</span>
-            </div>
-            <div class="main__start__nav__phone__number">
-              <p>+1 (234) 567 89 01</p>
-            </div>
+          <div class="main__start__nav__phone__number">
+            <p>+1 (234) 567 89 01</p>
+          </div>
           <div class="main__start__nav__email">
             <div class="main__start__nav__email__title">
               <span>E-mail</span>
@@ -693,128 +551,96 @@
           </div>
         </div>
         <div class="main__start__carousell">carousell</div>
-      </section>
+    </section>
   </main>
-    <!--Footer-->
-    <footer>
-      <hr />
-      <div class="footer">
-        <div class="footer__fitb">
-          <div class="footer_fitb__logo">
-            <a href="#https://b6po9.weblium.site/"
-              ><img src="img/logo2.svg" alt="fitness club"
-            /></a>
-          </div>
-          <p class="footer__fitb__text">
-            We are a fitness club in Brooklyn with modern gym machines and group
-            programs.
-          </p>
-          <div class="footer__fitb__links">
-            <a
-              href="https://www.facebook.com/"
-              target="_blank"
-              class="footer__fitb__links__fb"
-              ><img
-                src="img/facebook.svg"
-                width="25"
-                height="25"
-                alt="Facebook"
-            /></a>
-            <a
-              href="https://www.instagram.com/"
-              target="_blank"
-              class="footer__fitb__links__inst"
-              ><img
-                src="img/instagram.svg"
-                width="25"
-                height="25"
-                alt="Instagram"
-            /></a>
-            <a
-              href="https://twitter.com/"
-              target="_blank"
-              class="footer__fitb__links__tweet"
-              ><img src="img/twitter.svg" width="25" height="25" alt="Tweeter"
-            /></a>
-            <a
-              href="https://www.youtube.com/"
-              target="_blank"
-              class="footer__fitb__links__youtb"
-              ><img src="img/youtube.svg" width="25" height="25" alt="Youtube"
-            /></a>
-          </div>
-        </div>
-        <div class="footer__navigation">
-          <h3 class="footer__navigation__title">Navigation</h3>
-          <ul class="footer__navigation__list">
-            <li><a href="#" class="navigation__list__about-us">About Us</a></li>
-            <li><a href="#" class="navigation__list__classes">Classes</a></li>
-            <li>
-              <a href="#" class="navigation__list__testimonials"
-                >Testimonials</a
-              >
-            </li>
-            <li><a href="#" class="navigation__list__schedule">Schedule</a></li>
-          </ul>
-        </div>
-        <div class="footer__information">
-          <h3 class="footer__information__title">Information</h3>
-          <ul class="footer__information__list">
-            <li>
-              <a href="#" class="information__list__trainers">Trainers</a>
-            </li>
-            <li>
-              <a href="#" class="information__list__perstr"
-                >Personal Training</a
-              >
-            </li>
-            <li><a href="#" class="information__list__plans">Plans</a></li>
-            <li><a href="#" class="information__list__blog">Blog</a></li>
-          </ul>
-        </div>
-        <div class="footer__clients">
-          <h3 class="footer__clients__title">Clients</h3>
-          <ul class="footer__clients__list">
-            <li>
-              <a href="#" class="clients__list__fitness-tips">Fitness Tips</a>
-            </li>
-            <li><a href="#" class="clients__list__faq">FAQ</a></li>
-            <li>
-              <a href="#" class="clients__list__workoutprg">Workout Programs</a>
-            </li>
-            <li>
-              <a href="#" class="clients__list__fitness-camps">Fitness Camps</a>
-            </li>
-          </ul>
-        </div>
-        <div class="footer__form">
-          <p class="footer__form__text">
-            Subscribe to get the latest news from us:
-          </p>
-          <input
-            type="email"
-            class="footer__form__email"
-            placeholder="Email*"
-          />
-          <button type="submit" class="footer__form__subskribe">
-            SUBSCRIBE
-          </div>
-        </div>
-      </div>
-    </footer>
+  <!--Footer-->
+  <footer>
     <hr />
-    <div class="prefooter">
-      <div class="prefooter__text__left">
-        <p>© Created by</p>
+    <div class="footer">
+      <div class="footer__fitb">
+        <div class="footer_fitb__logo">
+          <a href="#https://b6po9.weblium.site/"><img src="img/logo2.svg" alt="fitness club" /></a>
+        </div>
+        <p class="footer__fitb__text">
+          We are a fitness club in Brooklyn with modern gym machines and group
+          programs.
+        </p>
+        <div class="footer__fitb__links">
+          <a href="https://www.facebook.com/" target="_blank" class="footer__fitb__links__fb"><img
+              src="img/facebook.svg" width="25" height="25" alt="Facebook" /></a>
+          <a href="https://www.instagram.com/" target="_blank" class="footer__fitb__links__inst"><img
+              src="img/instagram.svg" width="25" height="25" alt="Instagram" /></a>
+          <a href="https://twitter.com/" target="_blank" class="footer__fitb__links__tweet"><img src="img/twitter.svg"
+              width="25" height="25" alt="Tweeter" /></a>
+          <a href="https://www.youtube.com/" target="_blank" class="footer__fitb__links__youtb"><img
+              src="img/youtube.svg" width="25" height="25" alt="Youtube" /></a>
+        </div>
       </div>
-      <div class="prefooter__text__right">
-        <p>All rights Reserved</p>
+      <div class="footer__navigation">
+        <h3 class="footer__navigation__title">Navigation</h3>
+        <ul class="footer__navigation__list">
+          <li><a href="#" class="navigation__list__about-us">About Us</a></li>
+          <li><a href="#" class="navigation__list__classes">Classes</a></li>
+          <li>
+            <a href="#" class="navigation__list__testimonials">Testimonials</a>
+          </li>
+          <li><a href="#" class="navigation__list__schedule">Schedule</a></li>
+        </ul>
+      </div>
+      <div class="footer__information">
+        <h3 class="footer__information__title">Information</h3>
+        <ul class="footer__information__list">
+          <li>
+            <a href="#" class="information__list__trainers">Trainers</a>
+          </li>
+          <li>
+            <a href="#" class="information__list__perstr">Personal Training</a>
+          </li>
+          <li><a href="#" class="information__list__plans">Plans</a></li>
+          <li><a href="#" class="information__list__blog">Blog</a></li>
+        </ul>
+      </div>
+      <div class="footer__clients">
+        <h3 class="footer__clients__title">Clients</h3>
+        <ul class="footer__clients__list">
+          <li>
+            <a href="#" class="clients__list__fitness-tips">Fitness Tips</a>
+          </li>
+          <li><a href="#" class="clients__list__faq">FAQ</a></li>
+          <li>
+            <a href="#" class="clients__list__workoutprg">Workout Programs</a>
+          </li>
+          <li>
+            <a href="#" class="clients__list__fitness-camps">Fitness Camps</a>
+          </li>
+        </ul>
+      </div>
+      <div class="footer__form">
+        <p class="footer__form__text">
+          Subscribe to get the latest news from us:
+        </p>
+        <input type="email" class="footer__form__email" placeholder="Email*" />
+        <button type="submit" class="footer__form__subskribe">
+          SUBSCRIBE
       </div>
     </div>
-    <script src="js/feedback.js"></script>
-    <script src="js/script.js"></script>
-    <script src="js/trainers.js"></script>
-    <script src="js/pricing.js"></script>
-    <script src="js/get-class-slideshow.js"></script>
-  </body>
+    </div>
+  </footer>
+  <hr />
+  <div class="prefooter">
+    <div class="prefooter__text__left">
+      <p>© Created by</p>
+    </div>
+    <div class="prefooter__text__right">
+      <p>All rights Reserved</p>
+    </div>
+  </div>
+  <script src="js/burger-menu.js"></script>
+  <script src="js/feedback.js"></script>
+  <script src="js/script.js"></script>
+  <script src="js/trainers.js"></script>
+  <script src="js/pricing.js"></script>
+  <script src="js/get-class-slideshow.js"></script>
+</body>
+
 </html>
