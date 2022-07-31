@@ -2,7 +2,7 @@ section.get-class {
     display: grid;
     justify-content: center;
     background-color: #191919;
-    padding-top: 35px;
+    padding-top: 100px;
     padding-bottom: 35px;
 }
 
@@ -27,11 +27,14 @@ section.get-class {
     font-weight: 700;
 }
 
+.get-class__schedule {
+    margin: auto 0;
+}
+
 .get-class__schedule-text {
     font-family: 'Poppins', sans-serif;
     color: var(--text-color);
     font-size: 17px;
-    ;
 }
 
 .get-class__schedule-yellow {
