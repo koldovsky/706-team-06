@@ -1,8 +1,35 @@
-/* .benefits__carousel__slides{
-    min-height: 200px;
+.benefits__carousel{
+    overflow: hidden;
+    width: 100%;
+    position: relative;
+}
+.benefits__carousel__slides{
+    width: 300%;
+    display: flex;
+    flex-direction: row;
 }
 
-.benefits__carousel{
-    width: 25%;
-   
-} */
+.benefit__carousel__btn-right{
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    bottom: 50%;
+    z-index: 10;
+    background: none;
+    width: 40px;
+    height: 40px;
+    border: none;
+}
+
+.benefit__carousel__btn-left {
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    bottom: 50%;
+    z-index: 10;
+    background: none;
+    width: 40px;
+    height: 40px;
+    border: none;
+}
+

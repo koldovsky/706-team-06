@@ -1,4 +1,4 @@
-document.addEventListener("DOMContentLoaded", function () {
+// function () {
 const carouselBenefit = [
     `<div class="main__benefits">
         <img src="img/bicycle.svg" alt="Bicycle" class="main__picture-bicycle benefits-icon" />
@@ -41,7 +41,7 @@ function benefitsCarousel() {
     slideContainer.innerHTML = slides[currentSlideIdx];
 }
 
-function nextSlide() {
+function next() {
     currentSlideIdx = currentSlideIdx + 1 >= slides.length ? 0 : currentSlideIdx + 1;
     benefitsCarousel();
 }
@@ -56,6 +56,6 @@ const previousButton = document.querySelector('.benefit__carousel__btn-left');
 previousButton.addEventListener('click', previous);
 
 benefitsCarousel();
-});
+// };
 
 
