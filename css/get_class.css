@@ -30,7 +30,8 @@ section.get-class {
 .get-class__schedule-text {
     font-family: 'Poppins', sans-serif;
     color: var(--text-color);
-    font-size: 17px;;
+    font-size: 17px;
+    ;
 }
 
 .get-class__schedule-yellow {
@@ -71,24 +72,21 @@ section.get-class {
     color: var(--ui-title-color);
 }
 
-/* SLIDESHOW */
-
 .getclass-images-slideshow {
-    width:100%
-    position: relative;
+    width: 100% position: relative;
     margin: auto;
-  }
-  
-  .getclass-mySlides {
+}
+
+.getclass-mySlides {
     display: none;
     vertical-align: middle;
-  }
-  
-  .getclass-dots-slideshow {
+}
+
+.getclass-dots-slideshow {
     text-align: center
-    }
-  
-  .getclass-dot {
+}
+
+.getclass-dot {
     height: 8px;
     width: 8px;
     margin: 0 2px;
@@ -96,23 +94,23 @@ section.get-class {
     border-radius: 50%;
     display: inline-block;
     transition: background-color 0.6s ease;
-  }
-  
-  .getclass-dot.active {
+}
+
+.getclass-dot.active {
     background-color: var(--text-ui-brand-color);
-  }
-  
-  .getclass-imageSlides.fade {
+}
+
+.getclass-imageSlides.fade {
     animation-name: fade;
     animation-duration: 2.9s;
-  }
-  
-  @keyframes fade {
+}
+
+@keyframes fade {
     from {
-      opacity: .3
+        opacity: .3
     }
-  
+
     to {
-      opacity: 1
+        opacity: 1
     }
-  }
+}
