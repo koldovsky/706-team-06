@@ -38,7 +38,6 @@
         margin-right: 10px;
         gap: 20px;
         min-width: 250px;
-        /* max-width: 450px; */
         overflow-wrap: break-word;
 
     }
@@ -55,6 +54,7 @@
         .benefits-icon {
             margin-top: 20px;
         }
+    
     }
 
     .benefits-icon {
