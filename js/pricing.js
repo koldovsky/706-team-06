@@ -1,5 +1,5 @@
 (function () {
-  const discountEnd = new Date("Jul 31, 2022 23:59:59").getTime();
+  const discountEnd = new Date("Aug 31, 2022 23:59:59").getTime();
   const countDiscountTimer = setInterval(function () {
     const now = new Date().getTime();
     const timeleft = discountEnd - now;
