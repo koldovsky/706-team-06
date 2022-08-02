@@ -5,7 +5,6 @@
         flex-direction: row;
         justify-content: space-between;
         align-items: stretch;
-
     }
 
     .main__header {
@@ -63,17 +62,40 @@
             flex-direction: column;
             flex-wrap: wrap;
             padding-left: 20px;
+            max-width: 100%;
         }
 
         .main__img {
+            max-width: 100%;
+            height: auto;
             object-position: 50% 50%;
-            object-fit: contain;
         }
 
         .benefits-icon {
             margin-top: 20px;
         }
 
+    }
+
+    @media (max-width: 375px) {
+
+        .personal__training,
+        .benefits__container {
+            flex-direction: column;
+            flex-wrap: wrap;
+            padding-left: 20px;
+            max-width: 100%;
+        }
+
+        .main__img {
+            max-width: 100%;
+            height: auto;
+            object-position: 50% 50%;
+        }
+
+        .benefits-icon {
+            margin-top: 20px;
+        }
     }
 
     @media (max-width: 820px) {
@@ -83,12 +105,12 @@
             flex-direction: column;
             flex-wrap: wrap;
             padding-left: 20px;
-            max-width: 500px;
+            max-width: 100%;
         }
 
         .main__img {
-            object-position: 50% 50%;
-            object-fit: contain;
+            max-width: 100%;
+            height: auto;
         }
 
         .benefits-icon {
