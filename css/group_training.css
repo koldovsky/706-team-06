@@ -2,7 +2,7 @@ section.group-training {
     display: grid;
     justify-content: center;
     background-color: #191919;
-    padding-top: 35px;
+    padding-top: 100px;
 }
 
 .group-training__pic {
@@ -27,13 +27,26 @@ ul.group-training__list {
     list-style: none;
 }
 
+.group-training__list {
+    margin-left: 25px;
+}
+
 ul.group-training__list li::before {
     content: "\2022";
     color: var(--text-ui-brand-color);
     font-weight: bold;
+    font-size: 24px;
     display: inline-block;
     width: 1em;
     margin-left: -1em;
+}
+
+ul.group-training__list li {
+    color: var(--ui-title-color);
+    margin: 10px 0;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: bold;
 }
 
 .group-training__title {
@@ -44,20 +57,13 @@ ul.group-training__list li::before {
 }
 
 .group-training__slogan {
-    font-family: 'Kanit', sans-serif;
-    font-size: 21px;
-    color: var(--ui-title-color);
+    font-family: 'Poppins', sans-serif;
+    font-size: 19px;
+    color: var(--ui-light-accent-color);
 }
 
 .group-training__text {
     font-family: 'Poppins', sans-serif;
     color: var(--text-color);
     font-size: 17px;
-}
-
-.group-training__list {
-    margin: 20px;
-    font-family: 'Kanit', sans-serif;
-    font-size: 17px;
-    color: var(--ui-title-color);
 }

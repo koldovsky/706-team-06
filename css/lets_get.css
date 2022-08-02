@@ -3,8 +3,7 @@
     font-family: Poppins;
     justify-content: space-between;
 }
-.main__start__paragraph {
-}
+
 .main__start__paragraph__title {
     display: flex;
     font-family: Kanit;
@@ -26,9 +25,7 @@
     font-size: 19px;
     color: #8f8f8f;
 }
-.main__start__paragraph__consultacion {
 
-}
 .start__paragraph__button {
     margin: 20px 0;
     background-color: #d6fb00;
@@ -90,8 +87,7 @@
 .main__start__nav__email__adress:hover{
     text-decoration: underline;
 }
-.main__start__nav__operating {
-}
+
 .main__start__nav__operating__title {
     font-family: Kanit;
     margin-top: 10px;
@@ -106,5 +102,48 @@
 .main__start__nav__operating__to {
     color: #8f8f8f;
 }
-.main__start__carousell {
+.lets_get__carousel {
+    margin: auto; 
+    margin-top: 40px;
+    margin-bottom: 40px;
+    width: 70%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center; 
+}
+
+.lets_get__carousel_slides {
+    display: flex;
+    max-width: 1200px;
+    position: relative;
+    margin: auto;
+    gap: 100px; 
+}
+
+.lets_get__carousel_btn-prev {
+    cursor: pointer;
+    top: 50%;
+    height: 50%; 
+    width: auto;
+    padding: 8px 16px;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    font-size: 18px;
+    user-select: none;
+    background-color: yellow;
+    border-radius: 50%;
+}
+
+.lets_get__carousel_btn-next {
+    cursor: pointer;
+    top: 50%;
+    height: 50%;  
+    width: auto;
+    padding: 8px 16px;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    font-size: 18px;
+    user-select: none;
+    background-color: yellow;
+    border-radius: 50%;
 }

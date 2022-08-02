@@ -25,10 +25,16 @@ html, body, header, main, nav, section, div, article, footer, h1, h2, h3, p, a, 
     --button-text-color: rgb(25, 25, 25);
 }
 body{
+    padding: 0 20px;
     margin: 0 auto;
     max-width: 1200px;
     background-color: var(--background-color);
 }
+
+body.lock {
+    overflow: hidden;
+}
+
 h1{
     color: var(--ui-title-color);
 }

@@ -7,7 +7,7 @@
 .header__contacts {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 25px ;
+    margin-bottom: 25px;
     flex-direction: row;
     margin-top: 15px;
     font-weight: bold;
@@ -34,15 +34,21 @@
     justify-content: space-between;
 }
 
-.header_logo-img, .header__nav-logo{
+.header_logo-img,
+.header__nav-logo {
     height: 43px;
     width: 130px;
 }
 
+
+.burger-img {
+    display: none;
+}
+
 .header__horizontal-bar a {
-    display: flex;
+    /* display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center; */
     color: var(--text-color);
     text-decoration: none;
 }
@@ -81,7 +87,7 @@ h1 {
 }
 
 .header__introduction button {
-    margin-top: 40px;   
+    margin-top: 40px;
 }
 
 .header__introduction-h2 {
@@ -137,7 +143,7 @@ h1 {
         font-size: 73px !important;
     }
 
-    .header__horizontal-bar{
+    .header__horizontal-bar {
         display: flex;
         flex-direction: row;
         align-items: flex-start;
@@ -160,11 +166,51 @@ h1 {
 
 
 @media (max-width: 992px) {
-    .header__contacts {
-        display: none;
-    }
-    
     .header__horizontal-bar {
+        /* position: fixed; */
+        position: absolute;
+        top: -100%;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: var(--background-color);
+        transition: top 0.3s ease-in;
+        padding: 30px 24px 50px 24px;
+        overflow: hidden;
+        margin: auto;
+    }
+
+    .header__horizontal-bar.active {
+        top: 0;
+        margin-top: 50px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        flex-wrap: nowrap;
+        align-items: center;
+    }
+
+    .header__social-icon.active {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .header__burger-icon {
+        background-image: url(../img/burger-img.svg);
+        width: 35px;
+        height: 35px;
+        z-index: 2;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+    }
+
+    .header__burger-icon.active {
+        background-image: url(../img/burger-closer.svg);
+    }
+
+    .header__contacts {
         display: none;
     }
 
