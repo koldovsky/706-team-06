@@ -16,8 +16,8 @@
     }
 
     .main__img {
-        max-width: 480px;
-        height: auto;
+    max-width: 480px;
+    height: auto;
     }
 
     .main__benefits-section {
@@ -148,7 +148,7 @@
         font-size: 17px;
         font-family: 'Kanit', sans-serif;
         color: var(--text-color);
-        width: 450px;
+        max-width: 450px;
     }
 
     .main__picture-title-benefits {
@@ -164,4 +164,5 @@
         font-family: 'Poppins', sans-serif;
         color: var(--text-color);
         font-size: 17px;
+        max-width: 100%;
     }
