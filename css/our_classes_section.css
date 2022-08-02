@@ -55,14 +55,14 @@
 .main__accordion {
     display: flex;
     justify-content: center;
-    gap: 10px;
+    gap: 20px;
     margin-top: 40px ;
 }
 
 .main__picture-ball, .main__picture-ropes, 
 .main__picture-barbell, .main__picture-stationary-bikes {
-    width: 230px;
-    height: 300px;  
+    width: 260px;
+    height: 320px;  
     object-fit: cover;
 }
 
@@ -75,10 +75,11 @@
     border-left: 2px solid ;
     position: relative;
     bottom: 42px;
-    left: 235.5px;
+    left: 237.5px;
     cursor: pointer;
     color:#dcdcdc;
 }
+
 
 .main__picture-ball-horisontal-line, 
 .main__picture-ropes-horisontal-line, 
