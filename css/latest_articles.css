@@ -112,6 +112,7 @@
         align-items: center;
         max-width: 400px;
     }
+    
 }
 /*Tablet*/
 @media (max-width: 850px){
@@ -123,7 +124,6 @@
         gap: 30px;
     }
     .third__acticle__el{
-        margin: 0 auto;
         margin-top: 30px;
     }
 }
@@ -139,6 +139,9 @@
     }
     .latest__articles__main_title{
         align-self: flex-start;
+    }
+    .third__acticle__el{
+        margin-top: 30px;
     }
 }
 
