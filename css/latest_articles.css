@@ -112,16 +112,36 @@
         align-items: center;
         max-width: 400px;
     }
+    
 }
 /*Tablet*/
-@media (max-width: 900px){
+@media (max-width: 850px){
     .latest__articles_section{
-        justify-content: space-around;
+        display: flex;
+        justify-content: space-between;
         align-items: center;
-        max-width: 400px;
-        gap: 50px;
+        max-width: 700px;
+        gap: 30px;
+    }
+    .third__acticle__el{
+        margin-top: 30px;
+    }
+}
+
+@media (max-width: 1000px){
+    .latest__articles_section{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        max-width: 700px;
+        gap: 30px;
+        margin: 0 auto;
     }
     .latest__articles__main_title{
         align-self: flex-start;
     }
+    .third__acticle__el{
+        margin-top: 30px;
+    }
 }
+
