@@ -1,6 +1,7 @@
 .main__our-classes {
      background-image: url(../img/classes.svg);  
      background-repeat:no-repeat ;
+     background-position: 10% 50%;
      margin: auto;
 }
 
@@ -43,6 +44,32 @@
      text-transform: uppercase;
 }
 
+summary {
+   display:inline-block;
+   padding: .3em .5em .3em .4em;
+   font-size:1.4em;
+   cursor: pointer;
+}
+
+summary::after {   
+    content: "+";
+    margin-left:130px  ;
+  }
+
+ details[open] > summary::after {
+    content: "-";
+  }
+
+  
+  summary ~ * {
+    padding:0 1em 0 1em;
+ }
+
+  details{
+        display:block;
+        margin-bottom: .5rem;
+  }
+
 .main__picture-ball-text, .main__picture-ropes-text, 
 .main__picture-barbell-text, .main__picture-stationary-bikes-text {
     color:#707070;
@@ -66,35 +93,6 @@
     object-fit: cover;
 }
 
-.main__picture-ball-vertical-line, 
-.main__picture-ropes-vertical-line, 
-.main__picture-barbell-vertical-line, 
-.main__picture-stationary-bikes-vertical-line{
-    height: 14px;
-    border: 0;
-    border-left: 2px solid ;
-    position: relative;
-    bottom: 42px;
-    left: 237.5px;
-    cursor: pointer;
-    color:#dcdcdc;
-}
-
-
-.main__picture-ball-horisontal-line, 
-.main__picture-ropes-horisontal-line, 
-.main__picture-barbell-horisontal-line, 
-.main__picture-stationary-bikes-horisontal-line{
-    width: 15px;
-    border: 0;
-    border-top:2px solid ;
-    position: relative;
-    bottom: 25px;
-    left: 108.4px;
-    cursor: pointer;
-    color: #dcdcdc;
-}
-
 .main__text-button {
     font-size: 17px;
     font-family: Poppins,sans-serif;
@@ -106,7 +104,7 @@
     height: 20px;
     top: 20px;
     align-items: center;
-    margin: 0 auto 100px;
+    margin: 100px auto 100px;
     padding: 25px 30px 25px 30px;
     border:#d6fb00;
     background-color: #d6fb00; 
@@ -146,6 +144,7 @@
     .main__picture-barbell-subtitle, .main__picture-stationary-bikes-subtitle {
         text-align:center;
         margin: 30px 130px 0 0 ;
+        display: block;
     }
 
     .main__picture-ball-text, .main__picture-ropes-text, 
@@ -154,16 +153,10 @@
         width: 220px;
     }
 
-    .main__picture-ball-vertical-line, 
-    .main__picture-ropes-vertical-line, 
-    .main__picture-barbell-vertical-line, 
-    .main__picture-stationary-bikes-vertical-line {
-       text-align: center;
-       position:relative;
-       left: 108px;
-       width: 0;
+    summary {
+        position: relative;
+        left: 60px;
     }
-
 @media (max-width:600px){
     .main__accordion {
         display: grid;
