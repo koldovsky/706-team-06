@@ -125,3 +125,17 @@
         align-self: flex-start;
     }
 }
+
+@media (max-width: 820px){
+    .latest__articles_section{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        max-width: 700px;
+        gap: 30px;
+    }
+    .third__acticle__el{
+        margin: 0 auto;
+        margin-top: 30px;
+    }
+}
