@@ -18,6 +18,25 @@
     margin-top: 25px;
 }
 
+.discount__timer {
+    padding-top: 25px;
+    font-family: 'Kanit', sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    color: var(--ui-title-color);
+    text-align: center;
+}
+
+.discount__offer {
+    color: var(--text-ui-brand-color);
+    padding-right: 20px;
+}
+
+.discount__timer p {
+    display: inline;
+    padding-right: 10px;
+}
+
 .plans__types {
     width: 100%;
     margin-top: 50px;
@@ -118,22 +137,4 @@
 .right__arrow {
     width: 24px;
     height: 24px;
-}
-
-.discount__timer {
-    padding-top: 45px;
-    font-family: 'Kanit', sans-serif;
-    font-size: 30px;
-    font-weight: 600;
-    color: var(--ui-title-color);
-    text-align: center;
-}
-
-.discount__offer {
-    color: var(--text-ui-brand-color);
-    padding-right: 20px;
-}
-
-.discount__timer p {
-    display: inline;
 }
