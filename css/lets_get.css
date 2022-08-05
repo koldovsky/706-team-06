@@ -147,3 +147,17 @@
     background-color: yellow;
     border-radius: 50%;
 }
+@media screen and (max-width:900px) { 
+    .main__start{
+        display: flex;
+        flex-direction: column;
+        max-width: 600px;
+        position: relative;
+    }
+    .main__start__paragraph__text {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+    }
+  
+}
