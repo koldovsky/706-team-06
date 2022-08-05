@@ -247,11 +247,13 @@ color: #8f8f8f;
     font-family: Poppins Medium;
     color: #8f8f8f;
 }
-@media (max-width:320px){
-    body{
-        padding: 0;
-    }
+
+@media screen and (max-width: 900px){
     .footer{
+     display: flex;
      flex-direction: column;
+     max-width: 600px;
+     position: relative;
     }
+    
 }
