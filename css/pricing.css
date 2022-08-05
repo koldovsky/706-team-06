@@ -140,7 +140,7 @@
 }
 
 .modal__window-pricing {
-    display: block;
+    display: none;
     position: fixed;
     z-index: 1;
     box-sizing: border-box;
