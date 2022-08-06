@@ -292,7 +292,7 @@
       </div>
     </section>
     <!-- Our Trainers section -->
-    <section class="our-trainers__section">
+    <section class="our-trainers__section ">
       <div class="our-trainers__container">
         <div class="our-trainers__header-container">
           <h2 class="our-trainers__title">OUR TRAINERS</h2>
@@ -301,7 +301,16 @@
             help you set your goals.
           </p>
         </div>
-        <div class="our-trainers__container-list"></div>
+        <div class="our-trainers__carousel">
+          <button class="our-trainers__next-button">
+              <img src="/img/trainer-left-arrow.svg" alt="Left arrow" class="carousel__left-button">
+          </button>
+          <div class="our-trainers__container-list">
+          </div>
+          <button class="our-trainers__prev-button">
+            <img src="/img/trainers-right-arrow.svg" alt="Right arrow" class="carousel__right-button">
+          </button>
+        </div>
       </div>
     </section>
     <!--HOW TO START Andriana Oprysko-->
@@ -677,7 +686,7 @@
   <script src="js/burger-menu.js"></script>
   <script src="js/feedback.js"></script>
   <script src="js/script.js"></script>
-  <script src="js/trainers.js"></script>
+  <script src="js/trainers-section-carousel.js"></script>
   <script src="js/pricing.js"></script>
   <script src="js/get-class-slideshow.js"></script>
   <script src="js/personal-training-benefits-list.js"></script>
