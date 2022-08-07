@@ -3,8 +3,9 @@
 
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="css/schedule-table.css">
+    <link rel="stylesheet" href="css/schedule-table.css" />
     <link rel="stylesheet" href="css/index.css" />
+    <script type="text/javascript" src="https://unpkg.com/xlsx@0.15.1/dist/xlsx.full.min.js"></script>
 </head>
 
 <body>
@@ -29,13 +30,13 @@
           </div>
           <div class="header__burger-icon">
           </div>
-          <div class="header__horizontal-bar">
-            <a class="navigation-link" href="#about">About Us</a>
-            <a class="navigation-link" href="#classes">Classes</a>
-            <a class="navigation-link" href="#personal">Personal Training</a>
-            <a class="navigation-link" href="#schedule">Schedule</a>
-            <a class="navigation-link" href="#locations">Locations</a>
-          </div>
+        <div class="header__horizontal-bar">
+            <a class="navigation-link" href="index.html">About Us</a>
+            <a class="navigation-link" href="#our__classes">Classes</a>
+            <a class="navigation-link" href="#personal__training">Personal Training</a>
+            <a class="navigation-link" href="schedule-table.html">Schedule</a>
+            <a class="navigation-link" href="#pricing">Pricing</a>
+        </div>
           <div class="header__social-links">
             <a href="https://www.facebook.com/" target="_blank" class="header__social-icon"><img class="header__social-icon"
                 src="img/facebook.svg" alt="facebook" /></a>
@@ -68,8 +69,8 @@
         <h2>GROUP CLASSES</h2>
         <p>Here's our schedule for Septemer-December 2022</p>
     </div>
-    <div class="group-schedule__table" style="overflow-x:auto;">
-        <table>
+    <div class="group-schedule__table" style="overflow-x:hidden;">
+        <table id="tbl_exporttable_to_xls" border="1">
             <tr class="group-schedule__table-header">
                 <th></th>
                 <td>MON</td>
@@ -290,7 +291,7 @@
             <a href="#" class="btn-yellow__txt">BOOK A CLASS</a>
         </div>
         <div class="group-schedule_btn-black">
-            <a href="#" class="btn-black__txt">DOWNLOAD</a> 
+            <a id="downloadButton" class="btn-black__txt" onclick="ExportToExcel('xlsx')">DOWNLOAD</a> 
         </div>
     </div>
 
@@ -308,6 +309,7 @@
     <script src="js/lets_get_carousel.js"></script>
     <script src="js/our_classes.js"></script>
     <script src="js/modal_pricing.js"></script>
+    <script src="js/schedule-table.js"></script>
 </body>
 
 </html>
