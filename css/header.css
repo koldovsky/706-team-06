@@ -2,6 +2,8 @@
     background-image: url(../img/header-bg.png);
     background-size: cover;
     background-position: 50% 50%;
+    margin: -100px 0 0 0;
+    height: 600px;
 }
 
 .header__contacts {
@@ -83,7 +85,8 @@ h1 {
     font-family: 'Kanit', sans-serif;
     font-size: 17px;
     line-height: 1;
-    margin: 160px 0 0 15px;
+    margin-left: 20px;
+    padding-top: 290px;
 }
 
 .header__introduction button {
