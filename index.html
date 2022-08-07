@@ -33,10 +33,10 @@
       </div>
       <div class="header__horizontal-bar">
         <a class="navigation-link" href="index.html">About Us</a>
-        <a class="navigation-link" href="#classes">Classes</a>
-        <a class="navigation-link" href="#personal">Personal Training</a>
+        <a class="navigation-link" href="#our__classes">Classes</a>
+        <a class="navigation-link" href="#personal__training">Personal Training</a>
         <a class="navigation-link" href="schedule-table.html">Schedule</a>
-        <a class="navigation-link" href="#locations">Locations</a>
+        <a class="navigation-link" href="#pricing">Pricing</a>
       </div>
       <div class="header__social-links">
         <a href="https://www.facebook.com/" target="_blank" class="header__social-icon"><img class="header__social-icon"
@@ -57,10 +57,26 @@
       <h2 class="header__introduction-h2">
         Our professional instructors will help you stay active and healthy.
       </h2>
-      <button type="button" class="header__text-button">
+      <button type="button" id="myBtn" class="header__text-button">
         <img class="header_button-right-arrow" src="img/right-arrow.svg" alt="Right arrow" />
         JOIN NOW
       </button>
+      <!-- The Modal -->
+      <div id="myModal" class="modal">
+        <!-- Modal content -->
+        <div class="modal-content">
+          <span class="close">&times;</span>
+          <h2>START YOUR MEMBERSHIP <br> EXPERIENCE TODAY! </h2>
+          <div class="header__modal-inputs">
+          <input type="text" placeholder="Enter your full name*" required>
+          <input type="tel" placeholder="Enter your phone number*" required>
+          <input type="tel" placeholder="Enter your e-mail*" required>
+        </div>
+          <button type="button" class="header__modal-button">
+            JOIN NOW
+          </button>
+        </div>
+      </div>
     </div>
   </header>
   <main class="main">
@@ -76,75 +92,56 @@
         </div>
         <div class="main__accordion">
           <div class="main__img-ball">
-            <img
-              class="main__picture-ball"
-              src="img/a-women-with-ball.png"
-              alt="women training with the ball"
-            />   
-            <details  class="main__plus-minus">                
-                <summary class="main__picture-ball-subtitle">MAXFIT</summary>
-                <p class="main__picture-ball-text">
-                    MaxFit is an extensive training class that will help your body
-                    work at maximum load from the start to the end of your workout
-                    to gain the best results faster.
-                </p>
-              </details>            
-            </div>
-          <div class="main__img-ropes">
-            <img
-              class="main__picture-ropes"
-              src="img/a-woman-trains-with-ropes.png"
-              alt="women training with ropes"
-            />          
-            <details class="main__plus-minus"> 
-               <summary class="main__picture-ropes-subtitle">CAMPFIT</summary>
-               <p class="main__picture-ropes-text">
-                  Have fun while mixing your interval training, body weight
-                  exercises, and strength training!                 
-               </p>              
+            <img class="main__picture-ball" src="img/a-women-with-ball.png" alt="women training with the ball" />
+            <details class="main__plus-minus">
+              <summary class="main__picture-ball-subtitle">MAXFIT</summary>
+              <p class="main__picture-ball-text">
+                MaxFit is an extensive training class that will help your body
+                work at maximum load from the start to the end of your workout
+                to gain the best results faster.
+              </p>
             </details>
-          </div> 
+          </div>
+          <div class="main__img-ropes">
+            <img class="main__picture-ropes" src="img/a-woman-trains-with-ropes.png" alt="women training with ropes" />
+            <details class="main__plus-minus">
+              <summary class="main__picture-ropes-subtitle">CAMPFIT</summary>
+              <p class="main__picture-ropes-text">
+                Have fun while mixing your interval training, body weight
+                exercises, and strength training!
+              </p>
+            </details>
+          </div>
           <div class="main__img-barbell">
-            <img
-              class="main__picture-barbell"
-              src="img/a-man-with-a-barbell.png"
-              alt="men barbell training"
-            />           
-            <details class="main__plus-minus"> 
-              <summary class="main__picture-barbell-subtitle">POWERFIT</summary>                         
-                <p class="main__picture-barbell-text">                    
-                    PowerFit is a high strength training class which uses
-                    barbells/cardio to get maximum results.
-                </p>
-            </details>            
+            <img class="main__picture-barbell" src="img/a-man-with-a-barbell.png" alt="men barbell training" />
+            <details class="main__plus-minus">
+              <summary class="main__picture-barbell-subtitle">POWERFIT</summary>
+              <p class="main__picture-barbell-text">
+                PowerFit is a high strength training class which uses
+                barbells/cardio to get maximum results.
+              </p>
+            </details>
           </div>
           <div class="main__img-stationary-bikes">
-            <img
-              class="main__picture-stationary-bikes"
-              src="img/a-woman-is-training-on-the-exercise-bike.png"
-              alt="women training with stationary-bikes"
-            />                                          
+            <img class="main__picture-stationary-bikes" src="img/a-woman-is-training-on-the-exercise-bike.png"
+              alt="women training with stationary-bikes" />
             <details class="main__plus-minus">
               <summary class="main__picture-stationary-bikes-subtitle">SPINFIT</summary>
-                <p class="main__picture-stationary-bikes-text">
-                   The members of SpinFit use the stationary bike which imitates
-                   the real world bicycle obstacle course with the capacity to burn
-                   more than 500 calories per class
-               </p>
-            </details>          
+              <p class="main__picture-stationary-bikes-text">
+                The members of SpinFit use the stationary bike which imitates
+                the real world bicycle obstacle course with the capacity to burn
+                more than 500 calories per class
+              </p>
+            </details>
           </div>
         </div>
-          <div class="main__button">
-            <button type="button" class="main__text-button">
-              <img
-                class="button__right-arrow"
-                src="img/right-arrow.svg"
-                alt="Right arrow"
-              />
-              ALL CLASESS
-            </button>
-          </div>
+        <div class="main__button">
+          <button type="button" class="main__text-button">
+            <img class="button__right-arrow" src="img/right-arrow.svg" alt="Right arrow" />
+            ALL CLASESS
+          </button>
         </div>
+      </div>
     </section>
 
     <!-- Personal training (Protsailo Mariia)-->
@@ -153,7 +150,7 @@
         <img src="img/get-fit.png" alt="Wonem coach trains the man" />
       </div>
       <div class="main__header">
-        <h2 class="main__title-2">PERSONAL<br />TRAINING</h2>
+        <h2 id="personal__training" class="main__title-2">PERSONAL<br />TRAINING</h2>
         <h3 class="main__subtitle__personal">
           Maximum results and flexible training schedule.
         </h3>
@@ -195,18 +192,18 @@
             at any time.
           </p>
         </div>
-      
-      <div class="main__benefits">
-        <img src="img/checklist.svg" alt="checklist" class="main__picture-checklist benefits-icon" />
-        <h2 class="main__picture-title-benefits">FLEXIBLE PRICES</h2>
-        <p class="main__text-block-benefits">
-          You can select a training plan, instructor, and schedule suitable
-          for you.
-        </p>
+
+        <div class="main__benefits">
+          <img src="img/checklist.svg" alt="checklist" class="main__picture-checklist benefits-icon" />
+          <h2 class="main__picture-title-benefits">FLEXIBLE PRICES</h2>
+          <p class="main__text-block-benefits">
+            You can select a training plan, instructor, and schedule suitable
+            for you.
+          </p>
+        </div>
       </div>
-    </div>
     </section>
-    
+
     <!-- Group Training (Oleg Panfilenko) -->
     <section id="group" class="group-training">
       <div class="container__group-training">
@@ -303,7 +300,7 @@
         </div>
         <div class="our-trainers__carousel">
           <button class="our-trainers__next-button">
-              <img src="img/trainer-left-arrow.svg" alt="Left arrow" class="carousel__left-button">
+            <img src="img/trainer-left-arrow.svg" alt="Left arrow" class="carousel__left-button">
           </button>
           <div class="our-trainers__container-list">
           </div>
@@ -449,7 +446,8 @@
         <div class="window__pricing-content">
           <span class="close__window-pricing">&times;</span>
           <h2>NEED ASSISTANCE?</h2>
-          <p>Fill out this form and our consultant will get in touch with you to answer your questions or schedule a visit.</p>
+          <p>Fill out this form and our consultant will get in touch with you to answer your questions or schedule a
+            visit.</p>
           <form action="https://formspree.io/f/myyvgvej" method="POST">
             <input class="pricing__contact" type="text" placeholder="Enter your full name*" required>
             <input class="pricing__contact" type="tel" placeholder="Enter your phone number*" required>
@@ -686,6 +684,7 @@
     </div>
   </div>
   <script src="js/burger-menu.js"></script>
+  <script src="js/modal.js"></script>
   <script src="js/feedback.js"></script>
   <script src="js/script.js"></script>
   <script src="js/trainers-section-carousel.js"></script>
