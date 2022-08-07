@@ -10,5 +10,4 @@
             XLSX.writeFile(wb, fn || ('MySchedule.' + (type || 'xlsx')));
     }
 
-
 })();
