@@ -2,22 +2,22 @@
 
     const letstartedArr = [
         `<div class="carousel-letstarted-item">
-        <div class= "letstarted-img" ><img src="img/inst1.png" alt=""></div>
+        <div class= "letstarted-img" ><img src="img/letsget1-empty-gym 600x400.png" alt=""></div>
         </div >`,
         `<div class="carousel-letstarted-item">
-        <div class= "letstarted-img" ><img src="img/inst2.png" alt=""></div>
+        <div class= "letstarted-img" ><img src="img/letsget2-woman-powerfit 600x400.png" alt=""></div>
         </div >`,
         `<div class="carousel-letstarted-item">
-        <div class= "letstarted-img" ><img src="img/inst3.png" alt=""></div>
+        <div class= "letstarted-img" ><img src="img/letsget3-group-yoga 600x400.png" alt=""></div>
         </div >`,
         `<div class="carousel-letstarted-item">
-        <div class= "letstarted-img" ><img src="img/inst4.png" alt=""></div>
+        <div class= "letstarted-img" ><img src="img/letsget4-group-spinfit 600x400.png" alt=""></div>
         </div >`,
         `<div class="carousel-letstarted-item">
-        <div class= "letstarted-img" ><img src="img/inst5.png" alt=""></div>
+        <div class= "letstarted-img" ><img src="img/letsget5-woman-yoga 600x400.png" alt=""></div>
         </div >`,
         `<div class="carousel-letstarted-item">
-        <div class= "letstarted-img" ><img src="img/inst6.png" alt=""></div>
+        <div class= "letstarted-img" ><img src="img/letsget6-man-powerfit 600x400.png" alt=""></div>
         </div >`
     ]
 
