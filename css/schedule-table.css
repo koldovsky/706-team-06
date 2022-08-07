@@ -82,7 +82,7 @@ th {
   border: solid var(--ui-title-color);
   border-radius: 2px;
   background-color: var(--background-color);
-  font-size: 15px;
+  font-size: 14px;
   font-family: 'Poppins', sans-serif;
   font-weight: bold;
   display: inline-block;
@@ -111,7 +111,7 @@ th {
   border: solid var(--text-ui-brand-color);
   border-radius: 2px;
   background-color: var(--text-ui-brand-color);
-  font-size: 15px;
+  font-size: 14px;
   font-family: 'Poppins', sans-serif;
   font-weight: bold;
   display: inline-block;
