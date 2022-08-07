@@ -11,6 +11,7 @@
 
 .carousel-feedback-el{
     width: 40%;
+    min-width: 280px;
 }
 .feedback_heading{
     color: var(--ui-title-color);
@@ -71,3 +72,35 @@
     justify-content: space-around;
     text-align: center;
 }
+@media (max-width: 320px){
+    .feedback__btn-right{
+        width: 20px;
+        height: 20px;
+    }
+
+    .feedback__btn-left{
+        width: 20px;
+        height: 20px;
+    }
+
+    .feedback_heading{
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 425px){
+
+    .feedback__btn-right{
+        width: 20px;
+        height: 20px;
+    }
+
+    .feedback__btn-left{
+        width: 20px;
+        height: 20px;
+    }
+
+    .feedback_heading{
+        font-size: 18px;
+    }
+    }
