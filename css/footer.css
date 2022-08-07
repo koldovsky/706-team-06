@@ -20,7 +20,7 @@
 }
 .footer__fitb__text {
     margin: 20px 0;
-    font-family: Poppins Medium;
+    font-family: 'Poppins';
     color: #8f8f8f;
 }
 .footer__fitb__links {
@@ -45,7 +45,7 @@
     padding: 0 15px;
 }
 .footer__navigation__title {
-    font-family: Poppins;
+    font-family: 'Poppins';
     color: #fff;
     margin-bottom: 15px;
 }
@@ -55,7 +55,7 @@
 
 }
 .navigation__list__about-us {
-    font-family: Poppins Medium;
+    font-family: 'Poppins';
     color: #8f8f8f;
     text-decoration: none;
 }
@@ -64,7 +64,7 @@
     text-decoration: underline;
 }
 .navigation__list__classes {
-    font-family: Poppins Medium;
+    font-family: 'Poppins';
     color: #8f8f8f;
     text-decoration: none;
 }
@@ -75,7 +75,7 @@
 }
 
 .navigation__list__testimonials {
-    font-family: Poppins Medium;
+    font-family: 'Poppins';
     color: #8f8f8f;
     text-decoration: none;
 }
@@ -85,7 +85,7 @@
 }
 
 .navigation__list__schedule {
-    font-family: Poppins Medium;
+    font-family: 'Poppins';
     color: #8f8f8f;
     text-decoration: none;
 }
@@ -102,17 +102,17 @@
     padding: 0 15px;
 }
 .footer__information__title {
-    font-family: Poppins;
+    font-family: 'Poppins';
     color: #fff;
     margin-bottom: 15px;
 }
 .footer__information__list {
     list-style: none;
     line-height: 33px;
-
+    font-family: 'Poppins';
 }
 .information__list__trainers {
-    font-family: Poppins Medium;
+    font-family: 'Poppins';
     color: #8f8f8f;
     text-decoration: none;
 }
@@ -121,7 +121,7 @@
     text-decoration: underline;
 }
 .information__list__perstr {
-    font-family: Poppins Medium;
+    font-family: 'Poppins';
     color: #8f8f8f;
     text-decoration: none;
 }
@@ -130,7 +130,7 @@
     text-decoration: underline;
 }
 .information__list__plans {
-    font-family: Poppins Medium;
+    font-family: 'Poppins';
     color: #8f8f8f;
     text-decoration: none;
 }
@@ -139,7 +139,7 @@
     text-decoration: underline;
 }
 .information__list__blog {
-    font-family: Poppins Medium;
+    font-family: 'Poppins';
     color: #8f8f8f;
     text-decoration: none;
 }
@@ -155,7 +155,7 @@
     padding: 0 15px;
 }
 .footer__clients__title {
-    font-family: Poppins;
+    font-family: 'Poppins';
     color: #fff;
     margin-bottom: 15px;
 }
@@ -165,7 +165,7 @@
 
 }
 .clients__list__fitness-tips {
-    font-family: Poppins Medium;
+    font-family: 'Poppins';
     color: #8f8f8f;
     text-decoration: none;
 }
@@ -174,7 +174,7 @@
     text-decoration: underline;
 }
 .clients__list__faq {
-    font-family: Poppins Medium;
+    font-family: 'Poppins';
     color: #8f8f8f;
     text-decoration: none;
 }
@@ -183,7 +183,7 @@
     text-decoration: underline;
 }
 .clients__list__workoutprg {
-    font-family: Poppins Medium;
+    font-family: 'Poppins';
     color: #8f8f8f;
     text-decoration: none;
 }
@@ -192,7 +192,7 @@
     text-decoration: underline;
 }
 .clients__list__fitness-camps {
-    font-family: Poppins Medium;
+    font-family: 'Poppins';
     color: #8f8f8f;
     text-decoration: none;
 }
@@ -208,13 +208,13 @@
     line-height: 30px;
 }
 .footer__form__text {
-font-family: Poppins Medium;
+    font-family: 'Poppins';
 color: #8f8f8f;
 }
 .footer__form__email {
     background-color: rgba(116, 116, 116, 0.05);
     color:#fff ;
-    font-family: Poppins;
+    font-family: 'Poppins';
     box-sizing: border-box;
     border: none;
     margin-top: 12px;
@@ -223,7 +223,7 @@ color: #8f8f8f;
 
 .footer__form__subskribe {
     background-color: #d6fb00;;
-    font-family: Poppins;
+    font-family: 'Poppins';
     margin-top: 10px;
     width: 200px;
     height: 40px;
@@ -239,12 +239,12 @@ margin-bottom: 20px;
 }
 .prefooter__text__left{
 display: flex;
-font-family: Poppins Medium;
+font-family: 'Poppins';
 color: #8f8f8f;
 }
 .prefooter__text__right{
     display: flex;
-    font-family: Poppins Medium;
+    font-family: 'Poppins';
     color: #8f8f8f;
 }
 
