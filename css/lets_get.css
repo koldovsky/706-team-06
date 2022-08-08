@@ -1,4 +1,5 @@
 .main__start {
+    padding-top: 50px;
     display: flex;
     font-family: Poppins;
     justify-content: space-between;
@@ -102,51 +103,118 @@
 .main__start__nav__operating__to {
     color: #8f8f8f;
 }
-.lets_get__carousel {
-    margin: auto; 
-    margin-top: 40px;
-    margin-bottom: 40px;
-    width: 70%;
+
+.carousel-letstarted {
+    padding: 100px 40px;
+    margin: auto;
+    max-width: 1200px;
     display: flex;
     justify-content: space-around;
-    align-items: center; 
-}
-
-.lets_get__carousel_slides {
-    display: flex;
-    max-width: 1200px;
+    gap: 10px;
     position: relative;
-    margin: auto;
-    gap: 100px; 
+    transition: 0.7s;
 }
 
-.lets_get__carousel_btn-prev {
-    cursor: pointer;
-    top: 50%;
-    height: 50%; 
-    width: auto;
-    padding: 8px 16px;
-    color: rgb(0, 0, 0);
-    font-weight: bold;
-    font-size: 18px;
-    user-select: none;
-    background-color: yellow;
-    border-radius: 50%;
+.letstarted-slides {
+    display: flex;
+    gap: 10px;
 }
 
-.lets_get__carousel_btn-next {
+.carousel-letstarted-item img {
+    max-width: 285px;
     cursor: pointer;
-    top: 50%;
-    height: 50%;  
-    width: auto;
-    padding: 8px 16px;
-    color: rgb(0, 0, 0);
-    font-weight: bold;
-    font-size: 18px;
-    user-select: none;
+}
+
+.letstarted-btn-next {
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    font-size: 1rem;
     background-color: yellow;
     border-radius: 50%;
+    border: 0;
+    position: absolute;
+    right: 5%;
+    top: 180px;
+    opacity: 1;
+    cursor: pointer;
 }
+
+.letstarted-btn-next:hover {
+    background-color: grey;
+    opacity: 1;
+    transition: 0.3s;
+}
+
+.letstarted-btn-prev {
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    font-size: 1rem;
+    background-color: yellow;
+    border-radius: 50%;
+    border: 0;
+    position: absolute;
+    left: 5%;
+    top: 180px;
+    opacity: 1;
+    cursor: pointer;
+}
+
+.letstarted-btn-prev:hover {
+    background-color: grey;
+    opacity: 1;
+    transition: 0.3s;
+}
+@media (max-width: 1200px) {
+
+    .letstarted-btn-next {
+        width: 30px;
+        height: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: black;
+        font-size: 1rem;
+        background-color: yellow;
+        border-radius: 50%;
+        position: absolute;
+        right: 15px;
+        top: 180px;
+        opacity: 1;
+    }
+
+    .letstarted-btn-next:hover {
+        background-color: grey;
+    }
+
+    .letstarted-btn-prev {
+        width: 30px;
+        height: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: black;
+        font-size: 1rem;
+        background-color: yellow;
+        border-radius: 50%;
+        position: absolute;
+        left: 15px;
+        top: 180px;
+        opacity: 1;
+    }
+
+    .letstarted-btn-prev:hover {
+        background-color: grey;
+    }
+}
+
 @media screen and (max-width:900px) { 
     .main__start{
         display: flex;

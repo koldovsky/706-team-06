@@ -1,59 +1,62 @@
 (function () {
 
-    const slides = [
-        `<div class="slides">
-        <img src="img/img_women_run.png" alt="Run women">
-        </div>`,
-        `<div class="slides" >
-        <img src="img/img_women_ex.png" alt="Women exercise">
-        </div>`,
-        `<div class="slides" >
-        <img src="img/img_women.png" alt="Women with coach">
-        </div>`,
-        `<div class="slides" >
-        <img src="img/img_people.png" alt="People in training">
-        </div>`,
-        `<div class="slides" >
-        <img src="img/img_atribute.png" alt="Atribute">
-        </div>`
-    ];
+    const letstartedArr = [
+        `<div class="carousel-letstarted-item">
+        <div class= "letstarted-img" ><img src="img/letsget1-empty-gym 600x400.png" alt=""></div>
+        </div >`,
+        `<div class="carousel-letstarted-item">
+        <div class= "letstarted-img" ><img src="img/letsget2-woman-powerfit 600x400.png" alt=""></div>
+        </div >`,
+        `<div class="carousel-letstarted-item">
+        <div class= "letstarted-img" ><img src="img/letsget3-group-yoga 600x400.png" alt=""></div>
+        </div >`,
+        `<div class="carousel-letstarted-item">
+        <div class= "letstarted-img" ><img src="img/letsget4-group-spinfit 600x400.png" alt=""></div>
+        </div >`,
+        `<div class="carousel-letstarted-item">
+        <div class= "letstarted-img" ><img src="img/letsget5-woman-yoga 600x400.png" alt=""></div>
+        </div >`,
+        `<div class="carousel-letstarted-item">
+        <div class= "letstarted-img" ><img src="img/letsget6-man-powerfit 600x400.png" alt=""></div>
+        </div >`
+    ]
 
-    let currentSlideIdx = 0;
+    let currentLetstartedArrIdx = 0;
 
-    function renderCarousel(){
-        const slideContainer = document.querySelector('.lets_get__carousel_slides');
-        slideContainer.innerHTML = slides[currentSlideIdx];
-        if (window.innerWidth >200) {
-            const secondSlideidx = currentSlideIdx + 1 >= slides.length ? 0 : currentSlideIdx + 1;
-            slideContainer.innerHTML += slides[secondSlideidx];
-            if (window.innerWidth >350) {
-            const thirdSlideidx = secondSlideIdx + 1 >= slides.length ? 0 : secondSlideIdx + 1;
-            slideContainer.innerHTML += slides[thirdSlideidx];
-            }
-            if (window.innerWidth >500) {
-                const forthSlideidx = thirdSlideidx + 1 >= slides.length ? 0 : thirdSlideidx + 1;
-                slideContainer.innerHTML += slides[forthSlideidx];
+    function renderCarousel() {
+        const LetstartedArrContainer = document.querySelector('.letstarted-slides');
+        LetstartedArrContainer.innerHTML = letstartedArr[currentLetstartedArrIdx];
+        if (window.innerWidth > 600) {
+            const secondLetstartedArrIdx = currentLetstartedArrIdx + 1 >= letstartedArr.length ? 0 : currentLetstartedArrIdx + 1;
+            LetstartedArrContainer.innerHTML += letstartedArr[secondLetstartedArrIdx];
+            if (window.innerWidth > 800) {
+                const thirdLetstartedArrIdx = secondLetstartedArrIdx + 1 >= letstartedArr.length ? 0 : secondLetstartedArrIdx + 1;
+                LetstartedArrContainer.innerHTML += letstartedArr[thirdLetstartedArrIdx];
+                if (window.innerWidth > 1000) {
+                    const fourhLetstartedArrIdx = thirdLetstartedArrIdx + 1 >= letstartedArr.length ? 0 : thirdLetstartedArrIdx + 1;
+                    LetstartedArrContainer.innerHTML += letstartedArr[fourhLetstartedArrIdx];
                 }
+            }
         }
     }
 
     function next() {
-        currentSlideIdx = currentSlideIdx + 1 >= slides.length ? 0 : currentSlideIdx + 1;
+        currentLetstartedArrIdx = currentLetstartedArrIdx + 1 >= letstartedArr.length ? 0 : currentLetstartedArrIdx + 1;
         renderCarousel();
     }
+
     function prev() {
-        currentSlideIdx = currentSlideIdx - 1 < 0 ? slides.length - 1 : currentSlideIdx - 1;
+        currentLetstartedArrIdx = currentLetstartedArrIdx - 1 < 0 ? letstartedArr.length - 1 : currentLetstartedArrIdx - 1;
         renderCarousel();
     }
-    
-    const nextButton = document.querySelector('.lets_get__carousel_btn-next');
+
+    const nextButton = document.querySelector('.letstarted-btn-next');
     nextButton.addEventListener('click', next);
-    
-    const prevButton = document.querySelector('.lets_get__carousel_btn-prev');
+
+    const prevButton = document.querySelector('.letstarted-btn-prev');
     prevButton.addEventListener('click', prev);
 
     renderCarousel();
 
     window.addEventListener('resize', renderCarousel);
-
-}) ();
+})();
