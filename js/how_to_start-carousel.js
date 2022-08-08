@@ -1,17 +1,21 @@
 (function(){
+    const start_slides = [
+        `<div class='start_photo_slides'>
+            <img src = 'img/girls-training.png' alt ='Girls training at gym.'/>
+        </div>`,
+        `<div class='start_photo_slides'>
+            <img src = 'img/girls-training-alone.png' alt ='Girls at alone training.'/>
+        </div>`,
+        `<div class='start_photo_slides'>
+        <img src = 'img/girls-streching.png' alt ='Two girls streching at gym.'/>
+    </div>`
+    ];
 
     let currentStartSlide = 0;
 function renderHowToStartCarousel() {
     
-    let start_slides = document.getElementsByClassName("start_photo_slides");
-    const startContainer = document.querySelector('.start__carousel-slides');
+    let start_slides = document.getElementsByClassName("start__div");
     startContainer.innerHTML = start_slides[currentStartSlide];
-    for (currentStartSlide = 0; currentStartSlide <start_slides.length; currentStartSlide++) {
-        start_slides[currentStartSlide].style.display ="none";
-    }
-    currentStartSlide++;
-
-    start_slides[currentStartSlide - 1].style.display ="block";
 }
 
 function nextStart() {
