@@ -24,5 +24,6 @@ function nextStart() {
 }
 
 setInterval(nextStart, 3000);
+renderHowToStartCarousel();
 
 })();
