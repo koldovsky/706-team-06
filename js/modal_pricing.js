@@ -8,4 +8,9 @@
   closePricing.onclick = function () {
     modalPricing.style.display = "none";
   };
+  window.onclick = function (event) {
+    if (event.target == modalPricing) {
+      modalPricing.style.display = "none";
+    }
+  }
 })();
