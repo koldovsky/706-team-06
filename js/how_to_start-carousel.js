@@ -1,22 +1,17 @@
 (function(){
 
-const start_slides = [
-    <><div class='start_photo_slides'>
-        <img src="img/girls-training-in-gym.png" alt="Girls training in the gym." />
-    </div>
-    <div class='start_photo_slides'>
-        <img src='img/aqaprogram.png' alt='Aqa program'/>
-    </div>
-    <div class='start_photo_slides'>
-        <img src = 'img/aqaprogram.png' alt ='Aqa program'/>
-    </div></>
-
-];
-
-let currentStartSlide = 0;
+    let currentStartSlide = 0;
 function renderHowToStartCarousel() {
+    
+    let start_slides = document.getElementsByClassName("start_photo_slides");
     const startContainer = document.querySelector('.start__carousel-slides');
     startContainer.innerHTML = start_slides[currentStartSlide];
+    for (currentStartSlide = 0; currentStartSlide <start_slides.length; currentStartSlide++) {
+        start_slides[currentStartSlide].style.display ="none";
+    }
+    currentStartSlide++;
+
+    start_slides[currentStartSlide - 1].style.display ="block";
 }
 
 function nextStart() {
