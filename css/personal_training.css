@@ -18,6 +18,7 @@
     .main__img {
         max-width: 480px;
         height: auto;
+        margin: 20px;
     }
 
     .main__benefits-section {
