@@ -155,7 +155,7 @@
 .modal__window-pricing {
     display: none;
     position: fixed;
-    z-index: 1;
+    z-index: 2;
     margin: 0;
     padding: 0;
     left: 0;
@@ -173,6 +173,7 @@
     border: 1px solid var(--additional-background-color);
     min-width: 340px;
     width: 40%;
+    align-content: center;
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -227,7 +228,7 @@
 
 .pricing__contact-send {
     background-color: var(--text-ui-brand-color);
-    color: --button-text-color;
+    color: var(--button-text-color);
     padding: 15px 26px 15px 26px;
     text-align: center;
     font-size: 14px;
