@@ -1,95 +1,96 @@
-/* The Modal (background) */
 .modal {
-    display: none; /* Hidden by default */
-    position: fixed; /* Stay in place */
-    z-index: 1; /* Sit on top */
-    left: 0;
-    top: 0;
-    width: 100%; /* Full width */
-    height: 100%; /* Full height */
-    overflow: hidden; /* Enable scroll if needed */
-    background-color: rgb(0,0,0); /* Fallback color */
-    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
-  }
-  
-  /* Modal Content/Box */
-  .modal-content {
-    background-color: var(--background-color);
-    margin: 15% auto; /* 15% from the top and centered */
-    padding: 50px;
-    width: 80%; /* Could be more or less, depending on screen size */
-  }
+  display: none;
+  position: fixed;
+  z-index: 2;
+  margin: 0;
+  padding: 0;
+  left: 0;
+  right: 0;
+  top: 0;
+  height: 100%;
+  overflow: hidden;
+  background-color: var(--background-modal-color);
+}
 
-  .modal-content h2 {
-    display: flex;
-    justify-content: center;
-    color: var(--ui-title-color);
-  }
+.modal-content {
+  background-color: var(--background-color);
+  margin: 15% auto;
+  padding: 50px;
+  width: 80%;
+}
 
-  .header__modal-inputs {
-    display: flex;
-    flex-direction: column;
-    gap: 30px;
-    justify-content: center;
-  }
+.modal-content h2 {
+  display: flex;
+  justify-content: center;
+  color: var(--ui-title-color);
+  padding-top: 10px;
+  font-family: 'Kanit', sans-serif;
+  font-size: 38px;
+  font-weight: 700;
+}
 
-  .header__modal-text-input {
-    border: none;
-    margin: 20px 30%;
-    width: 40%;
-    height: 30px;
-    background-color: var(--background-color);
-    color: var(--ui-title-color)
-  }
+.header__modal-inputs {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  justify-content: center;
+}
 
-  .header__modal-tel-input {
-    border: none;
-    margin: 20px 30%;
-    width: 40%;
-    height: 30px;
-    background-color: var(--background-color);
-    color: var(--ui-title-color)
-  }
+.header__modal-text-input {
+  background-color: var(--additional-background-modal-color);
+  border-width: 0;
+  color: var(--additional-text-color);
+  font-family: 'Poppins', sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  margin-top: 20px;
+  padding: 15px 26px 15px 26px;
+  cursor: text;
+}
 
-  .header__modal-email-input {
-    border: none;
-    margin: 20px 30%;
-    width: 40%;
-    height: 30px;
-    background-color: var(--background-color);
-    color: var(--ui-title-color)
-  }
-  
-  .header__modal-button {
-    display: flex;
-    justify-content: center;
-    margin: 20px 50% !important;
-    font-size: 17px;
-    font-family: Poppins, sans-serif;
-    font-weight: 700;
-    text-align: left;
-    cursor: pointer;
-    width: 190px;
-    height: 20px;
-    top: 20px;
-    align-items: center;
-    /* margin: 0; */
-    padding: 25px 30px 25px 30px;
-    border: #d6fb00;
-    background-color: #d6fb00;
-  }
-  
-  /* The Close Button */
-  .close {
-    color: #aaa;
-    float: right;
-    font-size: 28px;
-    font-weight: bold;
-  }
-  
-  .close:hover,
-  .close:focus {
-    color: black;
-    text-decoration: none;
-    cursor: pointer;
-  }
+.header__modal-tel-input {
+  background-color: var(--additional-background-modal-color);
+  border-width: 0;
+  color: var(--additional-text-color);
+  font-family: 'Poppins', sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  padding: 15px 26px 15px 26px;
+  cursor: text;
+}
+
+.header__modal-email-input {
+  background-color: var(--additional-background-modal-color);
+  border-width: 0;
+  color: var(--additional-text-color);
+  font-family: 'Poppins', sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  padding: 15px 26px 15px 26px;
+  cursor: text;
+}
+
+.header__modal-button {
+  background-color: var(--text-ui-brand-color);
+  color: var(--button-text-color);
+  padding: 15px 26px 15px 26px;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.close {
+  color: var(--text-ui-brand-color);
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+  align-self: flex-end;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
