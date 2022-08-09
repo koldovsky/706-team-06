@@ -17,14 +17,22 @@
         start__slideContainer.innerHTML = start_slides[currentStartSlide];
         
     }
+    function prevStart() {
+        currentStartSlide = currentStartSlide - 1 < 0 ? start_slides.length - 1 : currentStartSlide + 1;
+        renderHowToStartCarousel();
+    }
 
-function nextStart() {
-    currentStartSlide = currentStartSlide + 1 >= start_slides.length ? 0 : currentStartSlide + 1;
-}
+    function nextStart() {
+        currentStartSlide = currentStartSlide + 1 >= start_slides.length ? 0 : currentStartSlide + 1;
+        renderHowToStartCarousel();
+    }
 
 //setInterval(nextStart, 3000);
-const nextButton = document.querySelector('.start__carousel__btn-prev');
+const prevButton = document.querySelector('.start__carousel__btn-prev');
+nextButton.addEventListener('click', prev);
+const nextButton = document.querySelector('.start__carousel__btn-next');
 nextButton.addEventListener('click', next);
+
 renderHowToStartCarousel();
 
 })();

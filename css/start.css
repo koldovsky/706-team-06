@@ -18,11 +18,15 @@ section.start__class {
 }
 .start__carousel{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-b  etween;
     align-items: center;
+}
+.start__carousel-slides{
+    min-height: 400px;
 }
 .start__slide{
     width: 50%;
+    margin: auto;
 }
 .start__photo img {
     object-fit: contain;
