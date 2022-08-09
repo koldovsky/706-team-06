@@ -16,6 +16,14 @@ section.start__class {
     align-items: stretch;
     gap: 40px;
 }
+.start__carousel{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.start__slide{
+    width: 50%;
+}
 .start__photo img {
     object-fit: contain;
     object-position: 50% 50%;
