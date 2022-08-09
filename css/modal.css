@@ -32,6 +32,33 @@
     gap: 30px;
     justify-content: center;
   }
+
+  .header__modal-text-input {
+    border: none;
+    margin: 20px 30%;
+    width: 40%;
+    height: 30px;
+    background-color: var(--background-color);
+    color: var(--ui-title-color)
+  }
+
+  .header__modal-tel-input {
+    border: none;
+    margin: 20px 30%;
+    width: 40%;
+    height: 30px;
+    background-color: var(--background-color);
+    color: var(--ui-title-color)
+  }
+
+  .header__modal-email-input {
+    border: none;
+    margin: 20px 30%;
+    width: 40%;
+    height: 30px;
+    background-color: var(--background-color);
+    color: var(--ui-title-color)
+  }
   
   .header__modal-button {
     display: flex;
