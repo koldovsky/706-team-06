@@ -22,7 +22,9 @@ function nextStart() {
     currentStartSlide = currentStartSlide + 1 >= start_slides.length ? 0 : currentStartSlide + 1;
 }
 
-setInterval(nextStart, 3000);
+//setInterval(nextStart, 3000);
+const nextButton = document.querySelector('.start__carousel__btn-prev');
+nextButton.addEventListener('click', next);
 renderHowToStartCarousel();
 
 })();
