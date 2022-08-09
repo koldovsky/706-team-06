@@ -32,7 +32,7 @@
         renderHowToStartCarousel();
     }
 
-//setInterval(nextStart, 3000);
+
 const prevButton = document.querySelector('.start__slideshow__btn-prev');
 prevButton.addEventListener('click', prev);
 const nextButton = document.querySelector('.start__slideshow__btn-next');
