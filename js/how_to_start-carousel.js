@@ -1,19 +1,24 @@
 (function(){
-    const start_slides = [
-        `<div class='start_photo_slides'>
-            <img src = 'img/girls-training.png' alt ='Girls training at gym.'/>
-        </div>`,
-        `<div class='start_photo_slides'>
-            <img src = 'img/girls-training-alone.png' alt ='Girls at alone training.'/>
-        </div>`,
-        `<div class='start_photo_slides'>
-        <img src = 'img/girls-streching.png' alt ='Two girls streching at gym.'/>
-    </div>`
-    ];
-
     let currentStartSlide = 0;
+    showSlides();
+    renderHowToStartCarousel();
+    function showSlides() {
+        let i;
+        let slides = document.getElementsByClassName("start_photo_slides");
+        for (i = 0; i < slides.length; i++) {
+          slides[i].style.display = "none";
+        }
+        currentStartSlide++;
+        if (currentStartSlide > slides.length) { currentStartSlide = 1 }
+        
+        slides[currentStartSlide - 1].style.display = "block";
+       
+        setTimeout(showSlides, 3000);
+      }
+
+    
     function renderHowToStartCarousel() {
-        const start__slideContainer = document.querySelector('.start__carousel-slides');
+        const start__slideContainer = document.querySelector('.start__slideshow');
         start__slideContainer.innerHTML = start_slides[currentStartSlide];
         
     }
@@ -28,11 +33,11 @@
     }
 
 //setInterval(nextStart, 3000);
-const prevButton = document.querySelector('.start__carousel__btn-prev');
-nextButton.addEventListener('click', prev);
-const nextButton = document.querySelector('.start__carousel__btn-next');
+const prevButton = document.querySelector('.start__slideshow__btn-prev');
+prevButton.addEventListener('click', prev);
+const nextButton = document.querySelector('.start__slideshow__btn-next');
 nextButton.addEventListener('click', next);
 
-renderHowToStartCarousel();
+
 
 })();
