@@ -12,11 +12,11 @@
     ];
 
     let currentStartSlide = 0;
-function renderHowToStartCarousel() {
-    
-    let start_slides = document.getElementsByClassName("start__div");
-    startContainer.innerHTML = start_slides[currentStartSlide];
-}
+    function renderHowToStartCarousel() {
+        const start__slideContainer = document.querySelector('.start__carousel-slides');
+        start__slideContainer.innerHTML = start_slides[currentStartSlide];
+        
+    }
 
 function nextStart() {
     currentStartSlide = currentStartSlide + 1 >= start_slides.length ? 0 : currentStartSlide + 1;
